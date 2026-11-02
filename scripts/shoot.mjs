@@ -17,14 +17,16 @@ for (const path of paths.length ? paths : ["/"]) {
   for (const [name, width] of Object.entries(widths)) {
     const page = await browser.newPage({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
     await page.goto(base + path, { waitUntil: "networkidle" });
-    // Trigger lazy images, then return to the top.
+    // Load lazy images, then return to the top.
     await page.evaluate(async () => {
-      for (let y = 0; y < document.body.scrollHeight; y += 600) {
+      document.querySelectorAll('img[loading="lazy"]').forEach((img) => (img.loading = "eager"));
+      for (let y = 0; y < document.body.scrollHeight; y += 400) {
         window.scrollTo(0, y);
-        await new Promise((r) => setTimeout(r, 50));
+        await new Promise((r) => setTimeout(r, 100));
       }
       window.scrollTo(0, 0);
     });
+    await page.waitForFunction(() => [...document.images].every((img) => img.complete));
     await page.waitForLoadState("networkidle");
     const slug = path.replace(/^\/|\/$/g, "").replaceAll("/", "_") || "home";
     const file = `${outDir}/${slug}-${name}.png`;

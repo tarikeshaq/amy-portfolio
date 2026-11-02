@@ -2,6 +2,17 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Case studies
+
+- Shared blocks in `components/case-study.tsx` take raw Figma measurements
+  (text widths become `em`, image widths cap at Figma px, columns keep proportions).
+- Both case studies built from `design/extracted/*.md`; desktop positions track
+  Figma to within ~35px over 10,000px (drift is serif line-wrapping, see TECH_DEBT).
+- Phones: dense diagrams scroll sideways; the escape-hatch comparison swaps to
+  separate panels with live-text annotations ([ADR 0004](adr/0004-responsive-strategy-for-desktop-only-design.md)).
+- Footer overlaps the "See next project" card by 120px as in Figma (`<Footer overlap />`).
+- `scripts/shoot.mjs` now forces lazy images to load before capturing.
+
 ## 2026-11-01 — About page
 
 - `Collage`/`Piece` components: at `lg`+ a 1440-wide coordinate canvas using

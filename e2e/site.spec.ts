@@ -32,9 +32,10 @@ for (const route of routes) {
       expect(overflow).toBeLessThanOrEqual(0);
     });
 
-    test("loads every image", async ({ page }) => {
+    test("loads every visible image", async ({ page }) => {
       await page.goto(route.path);
-      const imgs = page.locator("img");
+      // Some images are viewport-specific alternates (display:none on the other viewport).
+      const imgs = page.locator("img:visible");
       const n = await imgs.count();
       for (let i = 0; i < n; i++) {
         const img = imgs.nth(i);
@@ -52,4 +53,22 @@ test("footer exposes contact links", async ({ page }) => {
   const footer = page.getByRole("contentinfo");
   await expect(footer.getByRole("link", { name: "Find me on Linkedin" })).toHaveAttribute("href", /linkedin\.com/);
   await expect(footer.getByRole("link", { name: "Email me" })).toHaveAttribute("href", /^mailto:/);
+});
+
+test("home work cards and next-project cards link the case studies together", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("link", { name: /Cutting compute costs by 30%/ }).click();
+  await expect(page).toHaveURL(/\/work\/compute-costs\/$/);
+  await page.getByRole("link", { name: /See next project/ }).click();
+  await expect(page).toHaveURL(/\/work\/thought-partner\/$/);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(/thought partner/);
+  await page.getByRole("link", { name: /See next project/ }).click();
+  await expect(page).toHaveURL(/\/work\/compute-costs\/$/);
+});
+
+test("nav WORK link returns to the selected-work section", async ({ page }) => {
+  await page.goto("/work/thought-partner/");
+  await page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "WORK" }).click();
+  await expect(page).toHaveURL(/\/#work$/);
+  await expect(page.getByRole("heading", { name: "Selected work" })).toBeInViewport();
 });

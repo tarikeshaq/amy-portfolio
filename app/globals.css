@@ -7,6 +7,7 @@
   --color-lime: #c5d86d;
   --color-sage: #d8dfaf;
   --color-ink: #3e3e3d;
+  --color-panel: #fafafa; /* Figma "Background 2": cards and mockup panels */
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
@@ -30,6 +31,29 @@
   font-family: var(--font-sans);
   font-weight: 500;
   font-size: clamp(1.75rem, 0.75rem + 2.6vw, 3rem);
+  line-height: 1.21;
+  letter-spacing: -0.08em;
+}
+@utility text-subheading {
+  /* Figma "Subheader": Inter Medium 40px */
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 0.75rem + 2.1vw, 2.5rem);
+  line-height: 1.21;
+  letter-spacing: -0.08em;
+}
+@utility text-subheading-2 {
+  /* Figma "Subheader 2": Source Serif Pro SemiBold 24px */
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: clamp(1.1875rem, 0.95rem + 0.55vw, 1.5rem);
+  line-height: 1.25;
+}
+@utility text-diagram {
+  /* Figma "Diagram": Inter Medium 12px (fixed: it's already the smallest size) */
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.75rem;
   line-height: 1.21;
   letter-spacing: -0.08em;
 }

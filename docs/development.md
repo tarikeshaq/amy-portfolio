@@ -53,7 +53,14 @@ the composition scales with its width; below `lg` they become a 2-column grid, a
 each piece's `className` controls its mobile placement (`order-*`, `col-span-*`).
 Text inside uses `collageBody` so it scales with the canvas on desktop.
 
+## Case-study blocks (`components/case-study.tsx`)
+`H2`, `P`, `Highlight`, `Figure`, `Columns`, `Indent`, `Summary`, `BeforeAfter`,
+`Stats`, `NextProject`, wrapped in `Block space="chapter|section|double|content"`
+for Figma's 336/168/96/48px rhythm. Pass Figma px (`w`, `cols`, `gap`, `x`) straight
+from `design/extracted/<slug>.md`; the components convert them.
+
 ## Responsive approach
-Figma only has 1440px frames. At ≥768px (`md`) layouts follow Figma; below that,
-side-by-side compositions stack and type scales down via `clamp()`. Mobile
-layouts are our interpretation. See [TECH_DEBT.md](../TECH_DEBT.md).
+See [ADR 0004](adr/0004-responsive-strategy-for-desktop-only-design.md). In short:
+fluid type, `em` text measures, Figma proportions from `lg` up, stacked below;
+dense diagrams scroll sideways on phones. Mobile layouts are our interpretation
+(see [TECH_DEBT.md](../TECH_DEBT.md)).
