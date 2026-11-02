@@ -22,7 +22,7 @@ emits plain static files in `out/`.
   down on phones (`text-display`, `text-title`, `text-label`, `text-body` in `app/globals.css`).
 - Tests are **Playwright** end-to-end checks against the served `out/` directory:
   every route renders, has no console errors, no horizontal overflow, and every
-  image loads, at both desktop (1440) and mobile (iPhone 13) sizes.
+  image loads, at desktop (1440), tablet (1024, the collage breakpoint) and mobile (iPhone 13) sizes.
 
 ## Alternatives considered
 - **Astro / Eleventy**: excellent for static sites, but Next is what the owner

@@ -2,6 +2,15 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — About page
+
+- `Collage`/`Piece` components: at `lg`+ a 1440-wide coordinate canvas using
+  container-query units (1 Figma px = 1/14.4 cqw), so free-form compositions scale
+  exactly; below `lg` pieces flow into a 2-column grid.
+- About images reproduce Figma's fill crops, the SVG mask on the tray and the
+  -35.5° rotation on the black cat in the image pipeline (`scripts/image-manifest.mjs`).
+- Desktop positions match Figma to within 1px (`scripts/measure.mjs`).
+
 ## 2026-11-01 — Case-study extraction
 
 - Outlines with verbatim copy, typography and layout for both case studies in

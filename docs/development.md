@@ -46,6 +46,13 @@ node scripts/measure.mjs /about/ h1 h2 "main img"             # element x/y/w/h 
 Full-page screenshots draw the fixed nav at an odd offset; that's a capture
 artifact, not a bug. Check the nav with a viewport screenshot.
 
+## Free-form layouts (`components/Collage.tsx`)
+Figma's collage-style sections (About page) use `<Collage height>` + `<Piece x y w>`
+with raw Figma coordinates. At `lg`+ they're positioned in container-query units so
+the composition scales with its width; below `lg` they become a 2-column grid, and
+each piece's `className` controls its mobile placement (`order-*`, `col-span-*`).
+Text inside uses `collageBody` so it scales with the canvas on desktop.
+
 ## Responsive approach
 Figma only has 1440px frames. At ≥768px (`md`) layouts follow Figma; below that,
 side-by-side compositions stack and type scales down via `clamp()`. Mobile
