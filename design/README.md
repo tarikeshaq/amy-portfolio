@@ -4,6 +4,8 @@ Frozen copy of the Figma source so the build can be reviewed without Figma acces
 Source: Figma file `4Ib6tw9S9Db1VKo6OWtzsF`, section **"[For babe] Final Portfolio"** (node `3197:12285`),
 snapshotted 2026-11-01.
 
+This is the design **as of the first build**; it isn't kept in sync with later changes.
+For new work, the request (or a new Figma link) is the source of truth.
 The site never imports from this directory. Assets used at runtime are copied
 (and optimised) into `public/`.
 

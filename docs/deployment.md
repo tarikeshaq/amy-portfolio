@@ -41,5 +41,25 @@ JSON
 ```
 Branch protection on private repos needs GitHub Pro (or a public repo).
 
+## Collaborator previews
+Amy's agent opens PRs and Amy reviews the Vercel preview (ADR 0006). Two Vercel
+Hobby-plan limits get in the way:
+
+1. **Commits by anyone other than the Vercel account owner don't deploy from a private
+   repo** (Hobby doesn't support collaboration on private repos). The PR shows a failed
+   "Vercel" check, and `scripts/preview.mjs` exits 2 with Vercel's message.
+2. **Preview URLs sit behind Vercel Authentication by default** (Deployment Protection,
+   "Standard Protection"). Only members of the Vercel account can open them, and a Hobby
+   account can't add members.
+
+Fixes (pick one per limit):
+
+| Limit | Option | Trade-off |
+|---|---|---|
+| 1 | Make the GitHub repo **public** | Free. The code and the `design/` snapshot become public, though the site itself already is. |
+| 1 | Vercel **Pro** ($20/mo) and invite Amy | Keeps the repo private; adds a monthly cost. |
+| 1 | Move the Vercel project (and ideally the repo) to **Amy's own account** | Free, and she owns her site; Tarik's own commits then need the same treatment. |
+| 2 | Project → Settings → **Deployment Protection** → turn off Vercel Authentication | Previews become reachable by anyone with the (unguessable) link. Production is public anyway. |
+
 ## Rollback
 Vercel dashboard → Deployments → pick the last good production deploy → **Promote to Production**.
