@@ -7,7 +7,7 @@
     "build": "next build",
     "lint": "eslint",
     "preview": "serve out -l 4173",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test:e2e": "playwright test",
     "images": "node scripts/optimize-images.mjs",
     "check": "npm run lint && npm run typecheck && npm run build && npm run test:e2e"
@@ -29,5 +29,8 @@
     "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

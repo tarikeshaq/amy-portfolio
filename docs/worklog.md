@@ -2,6 +2,12 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Deployment prep
+
+- Hosting decision: Vercel via GitHub integration ([ADR 0005](adr/0005-host-on-vercel.md)); setup in [deployment.md](deployment.md).
+- GitHub Actions `ci.yml` runs `npm run check` on PRs and pushes to `main`.
+- `engines.node >= 20.9` (Next 16 minimum).
+
 ## 2026-11-01 — Polish
 
 - Favicon (`app/icon.svg`), styled 404 page, project README.
