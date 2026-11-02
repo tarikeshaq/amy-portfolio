@@ -1,0 +1,886 @@
+<frame id="3058:1236" name="Case study: iterate" x="5316" y="2805" width="1440" height="10010">
+  <frame id="3155:10353" name="Frame 1984078173" x="0" y="0" width="1440.001220703125" height="10009.658203125">
+    <frame id="3155:10347" name="Frame 1984078168" x="0" y="0" width="1440.001220703125" height="1154">
+      <frame id="3155:10346" name="Frame 1984078167" x="0" y="0" width="1440.001220703125" height="776">
+        <frame id="3101:10051" name="Hero" x="20" y="0" width="1419" height="776">
+          <frame id="3101:10050" name="Frame 1984078118" x="331" y="0" width="1108" height="776">
+            <frame id="3058:1237" name="Hero" x="0" y="0" width="1108" height="722" />
+            <text id="3058:1263" name="PolicyCopilot is a tool used by policy-makers to diagnose policy problems. The tool included an AI chat that helped users retrieve evidence from a curated knowledge base." x="0" y="726" width="933" height="50" />
+          </frame>
+          <frame id="3155:10345" name="Frame 1984078166" x="622" y="0" width="817" height="663">
+            <frame id="3060:3434" name="17" x="0" y="-662.547607421875" width="887" height="1325.547607421875">
+              <frame id="3060:3435" name="Frame 325" x="20.599441528320312" y="20.599443435668945" width="845.8010864257812" height="38">
+                <text id="3060:3436" name="Youth unemployment in Pakistan" x="0" y="0" width="444" height="38" />
+                <frame id="3060:3437" name="Frame 85" x="669.343017578125" y="11.5" width="176.45809936523438" height="15">
+                  <instance id="3060:3438" name="Icon/citation" x="0" y="1.2849187850952148" width="13.715081214904785" height="13.715081214904785" />
+                  <text id="3060:3439" name="View all citations in this chat" x="16.458097457885742" y="0" width="160" height="15" />
+                </frame>
+              </frame>
+              <frame id="3060:3440" name="Frame 1984078078" x="20.599441528320312" y="99.74468231201172" width="845.8010864257812" height="924.6480102539062">
+                <frame id="3060:3441" name="Frame 332" x="0" y="0" width="845.8010864257812" height="92.91619110107422">
+                  <frame id="3060:3442" name="Frame 70" x="395.94635009765625" y="0" width="449.854736328125" height="92.91619110107422">
+                    <text id="3060:3443" name="I want to look into youth unemployment in Pakistan. I&#39;ve been reading that the actual official youth unemployment rate is pretty low but that the number might be misleading and that the real issue is underemployment or perhaps greater reliance on informal work (not joblessness)." x="19.201160430908203" y="16.45809555053711" width="411.4524230957031" height="60" />
+                  </frame>
+                </frame>
+                <frame id="3060:3444" name="Comp" x="0" y="111.2875747680664" width="845.8010864257812" height="107.91619873046875">
+                  <frame id="3060:3445" name="Response text" x="0" y="0" width="628.2830810546875" height="107.91619873046875">
+                    <frame id="3060:3446" name="Frame 324" x="0" y="8.229048728942871" width="628.2830810546875" height="60">
+                      <text id="3060:3447" name="Summary" x="0.0004627488669939339" y="-0.0008994404342956841" width="187.89662170410156" height="18" hidden="true" />
+                      <text id="3060:3448" name="The tension between a low official youth unemployment rate and concern about underemployment or informal work is the core puzzle here; the framing needs to avoid treating joblessness as the only labour-market problem. I have a few more questions so I can better understand the problem:" x="0" y="0" width="628.2830810546875" height="60" />
+                    </frame>
+                    <instance id="3060:3449" name="Comp" x="0.0004627488669939339" y="368.6334533691406" width="187.8966064453125" height="39.77373504638672" hidden="true" />
+                    <frame id="3060:3450" name="Frame 323" x="0" y="84.68714904785156" width="186.8882598876953" height="15">
+                      <instance id="3060:3451" name="Comp" x="0" y="0" width="129.45809936523438" height="15" />
+                      <instance id="3060:3452" name="Comp" x="140.43016052246094" y="0" width="46.458099365234375" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3060:3453" name="Frame 1984078073" x="0" y="237.57516479492188" width="845.8010864257812" height="186.28758239746094">
+                  <frame id="3060:3454" name="Frame 70" x="395.94635009765625" y="0" width="449.854736328125" height="186.28758239746094">
+                    <frame id="3060:3455" name="Frame 1984078070" x="19.201129913330078" y="16.45809555053711" width="411.4524841308594" height="75">
+                      <frame id="3060:3456" name="Frame 1984078068" x="0" y="0" width="18.37138557434082" height="18.37138557434082">
+                        <text id="3060:3457" name="1" x="3.7508249282836914" y="3.1856930255889893" width="10.869735717773438" height="12" />
+                      </frame>
+                      <frame id="3060:3458" name="Frame 1984078069" x="27.55709457397461" y="0" width="383.8953857421875" height="75">
+                        <text id="3060:3459" name="Say more about what work looks like for young people who are counted as employed." x="0" y="0" width="383.8953857421875" height="30" />
+                        <text id="3060:3460" name="official youth unemployment rate is pretty low, but may be misleading because underemployment or informal work might be bigger problems compared to joblessness in this instance" x="0" y="30" width="383.8953857421875" height="45" />
+                      </frame>
+                    </frame>
+                    <frame id="3060:3461" name="Frame 1984078071" x="19.201129913330078" y="100.64378356933594" width="411.4524841308594" height="30">
+                      <frame id="3060:3462" name="Frame 1984078068" x="0" y="0" width="18.37138557434082" height="18.37138557434082">
+                        <text id="3060:3463" name="2" x="3.7508249282836914" y="3.1856930255889893" width="10.869735717773438" height="12" />
+                      </frame>
+                      <frame id="3060:3464" name="Frame 1984078069" x="27.55709457397461" y="0" width="383.8953857421875" height="30">
+                        <text id="3060:3465" name="Give me a sense of where and when this is happening." x="0" y="0" width="383.8953857421875" height="15" />
+                        <text id="3060:3466" name="Pakistan" x="0" y="15" width="383.8953857421875" height="15" />
+                      </frame>
+                    </frame>
+                    <frame id="3060:3467" name="Frame 1984078072" x="19.201129913330078" y="139.8294677734375" width="411.4524841308594" height="30">
+                      <frame id="3060:3468" name="Frame 1984078068" x="0" y="0" width="18.37138557434082" height="18.37138557434082">
+                        <text id="3060:3469" name="3" x="3.7508249282836914" y="3.1856930255889893" width="10.869735717773438" height="12" />
+                      </frame>
+                      <frame id="3060:3470" name="Frame 1984078069" x="27.55709457397461" y="0" width="383.8953857421875" height="30">
+                        <text id="3060:3471" name="Help me understand who experiences this problem." x="0" y="0" width="383.8953857421875" height="15" />
+                        <text id="3060:3472" name="youth" x="0" y="15" width="383.8953857421875" height="15" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3060:3473" name="Comp" x="0" y="442.234130859375" width="845.8010864257812" height="197.91619873046875">
+                  <frame id="3060:3474" name="Response text" x="0" y="0" width="628.2830810546875" height="197.91619873046875">
+                    <frame id="3060:3475" name="Frame 324" x="0" y="8.229048728942871" width="628.2830810546875" height="150">
+                      <text id="3060:3476" name="Summary" x="0.0004627488669939339" y="0.0005713375867344439" width="187.89662170410156" height="18" hidden="true" />
+                      <text id="3060:3477" name="The evidence check supports your concern that the official unemployment rate may be too narrow a lens: Pakistan&#39;s youth unemployment rate is 9.6% in 2025, up from 1.0% in 2000, but the labour market evidence points to a much larger role for informal, unpaid, own-account, and non-wage work&#39;. Other Pakistan-specific evidence also suggests young workers&#39; jobs are often similar to or worse than those of older workers, with weak movement into better wage employment Here&#39;s how l&#39;d frame the problem: Pakistan&#39;s youth labour-market problem may be understated by the official unemployment rate because many young people are counted as working, but are in underemployment, informal work, unpaid family work, or other low-quality forms of employment rather than stable and productive jobs. Does that capture it?" x="0" y="0" width="628.2830810546875" height="150" />
+                    </frame>
+                    <instance id="3060:3478" name="Comp" x="0.0004627488669939339" y="368.6329650878906" width="187.8966064453125" height="39.77373504638672" hidden="true" />
+                    <frame id="3060:3479" name="Frame 323" x="0" y="174.68714904785156" width="186.8882598876953" height="15">
+                      <instance id="3060:3480" name="Comp" x="0" y="0" width="129.45809936523438" height="15" />
+                      <instance id="3060:3481" name="Comp" x="140.43016052246094" y="0" width="46.458099365234375" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3060:3482" name="Frame 1984078074" x="0" y="658.521728515625" width="845.8010864257812" height="47.91619110107422">
+                  <frame id="3060:3483" name="Frame 70" x="395.94635009765625" y="0" width="449.854736328125" height="47.91619110107422">
+                    <text id="3060:3484" name="Yes that captures it" x="19.201160430908203" y="16.45809555053711" width="411.4524230957031" height="15" />
+                  </frame>
+                </frame>
+                <instance id="3060:3485" name="Problem statement" x="0" y="724.809326171875" width="747.1029663085938" height="135.00921630859375" />
+                <frame id="3060:3486" name="Comp" x="0" y="878.18994140625" width="845.8010864257812" height="46.458099365234375">
+                  <frame id="3060:3487" name="Response text" x="0" y="0" width="628.2830810546875" height="46.458099365234375">
+                    <frame id="3060:3488" name="Frame 324" x="0" y="8.229048728942871" width="628.2830810546875" height="30">
+                      <text id="3060:3489" name="Summary" x="0.0004627488669939339" y="0.000830124132335186" width="187.89662170410156" height="18" hidden="true" />
+                      <text id="3060:3490" name="Got it. What do you think is keeping young people in underemployment, informal work, unpaid family work, or other low-quality jobs rather than moving into stable and productive employment?" x="0" y="0" width="628.2830810546875" height="30" />
+                    </frame>
+                    <instance id="3060:3491" name="Comp" x="0.0004627488669939339" y="368.6332092285156" width="187.8966064453125" height="39.77373504638672" hidden="true" />
+                    <frame id="3060:3492" name="Frame 323" x="0.0004627488669939339" y="177.78192138671875" width="187.7974395751953" height="15.309487342834473" hidden="true">
+                      <instance id="3060:3493" name="Comp" x="0.0004627488669939339" y="0.0006704532424919307" width="129.74830627441406" height="15.309487342834473" />
+                      <instance id="3060:3494" name="Comp" x="140.72216796875" y="0.0006704532424919307" width="47.07707595825195" height="15.309487342834473" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="3060:3495" name="Q2" x="20.599443435668945" y="1065.5379638671875" width="552.6725463867188" height="239.4102783203125" />
+            </frame>
+          </frame>
+          <frame id="3058:1238" name="Frame 1984077874" x="20" y="101" width="715" height="465">
+            <text id="3058:1239" name="Turning an AI black box into a thought partner: drop-off from 70% to 20%" x="0" y="0" width="715" height="388" />
+            <frame id="3058:1240" name="Frame 1984077850" x="0" y="404" width="269" height="61">
+              <text id="3058:1244" name="AI product design" x="0" y="0" width="89" height="15" />
+              <text id="3058:1242" name="Role: lead product designer" x="0" y="23" width="133" height="15" />
+              <text id="3058:1243" name="Team: ML engineer, policy consultant, product manager" x="0" y="46" width="269" height="15" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3058:1245" name="Frame 1984077878" x="259.0006103515625" y="944" width="922" height="210">
+        <text id="3058:1246" name="Summary" x="0" y="0" width="922" height="48" />
+        <frame id="3058:1247" name="Frame 1984077877" x="0" y="72" width="922" height="138">
+          <frame id="3058:1248" name="Frame 1984077875" x="0" y="0" width="922" height="30">
+            <text id="3058:1249" name="Context" x="0" y="0" width="120" height="30" />
+            <text id="3058:1250" name="70% of usability testing participants dropped off our AI chatbot because they didn&#39;t trust the sources it selected, even though its citations matched the academic papers they trust." x="132" y="0" width="790" height="30" />
+          </frame>
+          <frame id="3058:1251" name="Frame 1984077876" x="0" y="54" width="922" height="30">
+            <text id="3058:1252" name="Approach" x="0" y="0" width="120" height="30" />
+            <text id="3058:1253" name="Showed that a disclaimer about source vetting didn&#39;t help, then redesigned the chatbot into a guided flow where users define the problem and root causes that drive which evidence is selected." x="132" y="0" width="790" height="30" />
+          </frame>
+          <frame id="3058:1254" name="Frame 1984077877" x="0" y="108" width="922" height="30">
+            <text id="3058:1255" name="Outcome" x="0" y="0" width="120" height="30" />
+            <text id="3058:1256" name="Drop-off fell from 70% to 20%. Shipped on time for the funder demo that secured $1M." x="132" y="7.5" width="790" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="3155:10349" name="Frame 1984078169" x="0" y="1490" width="1414" height="1183">
+      <frame id="3101:10069" name="Frame 1984078134" x="0" y="0" width="1414" height="709">
+        <text id="3058:1258" name="Our AI chatbot offered the same citation information as academic papers that users trust" x="60" y="0" width="1294" height="96" />
+        <frame id="3058:1265" name="Frame 1984078027" x="60" y="144" width="1294" height="421">
+          <frame id="3058:1266" name="Frame 1984078025" x="0" y="0" width="548" height="218">
+            <text id="3058:1267" name="Users told us in-text citations and a full reference list are what make research credible..." x="0" y="0" width="548" height="50" />
+            <frame id="3058:1268" name="Frame 1984078074" x="0" y="62" width="506" height="59">
+              <rounded-rectangle id="3058:1269" name="Screenshot 2026-10-19 at 10.01.28 PM 1" x="8" y="8" width="490" height="43" />
+            </frame>
+            <frame id="3058:1270" name="Frame 1984078077" x="0" y="133" width="548" height="85">
+              <rounded-rectangle id="3058:1271" name="Screenshot 2026-10-19 at 10.09.02 PM 1" x="8" y="8" width="532" height="69" />
+            </frame>
+            <frame id="3058:1272" name="Frame 1984078076" x="397" y="92" width="101" height="27">
+              <regular-polygon id="3058:1273" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+              <frame id="3058:1274" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="89" height="23">
+                <text id="3058:1275" name="In-text citation" x="8" y="4" width="71" height="15" />
+              </frame>
+            </frame>
+            <frame id="3058:1276" name="Frame 1984078075" x="374" y="162" width="96" height="27">
+              <regular-polygon id="3058:1277" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+              <frame id="3058:1278" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="84" height="23">
+                <text id="3058:1279" name="Reference list" x="8" y="4" width="66" height="15" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="3058:1280" name="Frame 1984078026" x="668" y="0" width="626" height="421">
+            <text id="3058:1281" name="... our chatbot already gave them both in the same format so the lack of trust sat somewhere else" x="0" y="0" width="626" height="50" />
+            <frame id="3058:1282" name="Frame 1984078023" x="0" y="62" width="626" height="359">
+              <rounded-rectangle id="3058:1283" name="[AI Trust] Citation Before 1" x="8" y="8" width="603" height="343" />
+            </frame>
+          </frame>
+        </frame>
+        <text id="3058:1257" name="but 7/10 of usability testing participants mentioned “not trusting the selected sources” in our AI chatbot, leading to high drop offs" x="60" y="613" width="1052" height="96" />
+      </frame>
+      <frame id="3101:10071" name="Frame 1984078136" x="0" y="877" width="1204" height="306">
+        <frame id="3058:2003" name="Frame 1984078096" x="60" y="0" width="1084" height="144">
+          <text id="3058:1259" name="Users asked us to explain how sources were vetted so I added a disclaimer." x="0" y="0" width="1084" height="96" />
+          <frame id="3058:2002" name="Frame 1984078095" x="0" y="96" width="360" height="48">
+            <text id="3058:2001" name="Drop-off did not move" x="0" y="0" width="360" height="48" />
+          </frame>
+        </frame>
+        <frame id="3101:10070" name="Frame 1984078135" x="60" y="192" width="1158" height="114">
+          <frame id="3058:1284" name="Group 3" x="0" y="0" width="671" height="114">
+            <frame id="3058:1285" name="Frame 1984078028" x="0" y="0" width="551" height="114">
+              <rounded-rectangle id="3058:1286" name="Screenshot 2026-10-19 at 9.54.40 PM 1" x="8" y="8" width="535" height="98" />
+            </frame>
+            <frame id="3058:1287" name="Frame 1984078029" x="501" y="70" width="170" height="27">
+              <regular-polygon id="3058:1288" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+              <frame id="3058:1289" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="158" height="23">
+                <text id="3058:1290" name="Knowledge base disclaimers" x="8" y="4" width="140" height="15" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="3058:1262" name="After a week live, drop-off went from 70% to 65% across 42 sessions (no meaningful change)" x="680" y="64" width="478" height="50" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="3155:10350" name="Frame 1984078170" x="0" y="3009" width="1440.001220703125" height="1498">
+      <frame id="3101:10073" name="Frame 1984078138" x="0" y="0" width="1440.001220703125" height="1124">
+        <frame id="3101:10072" name="Frame 1984078137" x="0" y="0" width="972" height="133">
+          <text id="3058:1260" name="I needed to make structural changes to the product. To start, I explored what levers cultivated trust" x="60" y="0" width="852" height="96" />
+          <text id="3058:1264" name="I mapped how people decide to trust in general, then how policymakers do specifically." x="60" y="108" width="852" height="25" />
+        </frame>
+        <frame id="3151:10338" name="Frame 1984078163" x="0" y="181" width="1440" height="943">
+          <frame id="3151:10291" name="Group 5" x="-20" y="0" width="1480" height="943">
+            <frame id="3151:10292" name="Frame 1984078058" x="311" y="483" width="820" height="330.29248046875">
+              <frame id="3151:10293" name="Frame 1984078054" x="0" y="0" width="400" height="330.29248046875">
+                <frame id="3151:10294" name="Frame 1984078054" x="0" y="0" width="400" height="58">
+                  <text id="3151:10295" name="Authorship" x="24" y="16" width="382" height="23" />
+                  <text id="3151:10296" name="Agency to adjust the variables that go into producing the outputs" x="24" y="43" width="344" height="15" />
+                </frame>
+                <frame id="3151:10297" name="Frame 1984078055" x="0" y="82" width="400" height="154.29248046875">
+                  <frame id="3151:10298" name="Frame 1984078057" x="24" y="0" width="204" height="135.29248046875">
+                    <rounded-rectangle id="3151:10299" name="image 122" x="0" y="0" width="95.50057983398438" height="135.29248046875" />
+                    <rounded-rectangle id="3151:10300" name="image 124" x="108.46763610839844" y="19.97163200378418" width="95.53217315673828" height="115.32098388671875" />
+                  </frame>
+                  <text id="3151:10301" name="Example from Wealthsimple" x="24" y="139.29248046875" width="352" height="15" />
+                </frame>
+                <frame id="3151:10302" name="Frame 1984078056" x="0" y="260.29248046875" width="400" height="70">
+                  <text id="3151:10303" name="Why this works:  Users trust the output because they trust the inputs" x="24" y="20" width="352" height="30" />
+                </frame>
+              </frame>
+              <frame id="3151:10304" name="Frame 1984078051" x="420" y="15.822463989257812" width="400" height="298.6475524902344">
+                <frame id="3151:10305" name="Frame 1984078054" x="0" y="0" width="400" height="58">
+                  <text id="3151:10306" name="Human in the loop (HITL)" x="24" y="16" width="382" height="23" />
+                  <text id="3151:10307" name="Adding a verification step requiring explicit human confirmation" x="24" y="43" width="344" height="15" />
+                </frame>
+                <frame id="3151:10308" name="Frame 1984078055" x="0" y="82" width="400" height="122.64754486083984">
+                  <rounded-rectangle id="3151:10309" name="Screenshot 2026-08-12 at 7.30.06 PM 1" x="24" y="0" width="281" height="103.64754486083984" />
+                  <text id="3151:10310" name="Example from Claude Code" x="24" y="107.64754486083984" width="352" height="15" />
+                </frame>
+                <frame id="3151:10311" name="Frame 1984078056" x="0" y="228.64755249023438" width="400" height="70">
+                  <text id="3151:10312" name="Why this works:  The user keeps final authority and feel like they are in control" x="24" y="20" width="352" height="30" />
+                </frame>
+              </frame>
+            </frame>
+            <ellipse id="3151:10313" name="Ellipse 4" x="117" y="398" width="1206" height="500" />
+            <ellipse id="3151:10314" name="Ellipse 5" x="-20" y="2" width="1480" height="941" />
+            <frame id="3151:10315" name="Frame 1984078046" x="494" y="386" width="473" height="56">
+              <text id="3151:10316" name="How do people decide to trust something?" x="24" y="16" width="425" height="24" />
+            </frame>
+            <frame id="3151:10317" name="Frame 1984078060" x="311" y="86" width="810" height="248.46075439453125">
+              <frame id="3151:10318" name="Frame 1984078055" x="0" y="29.804122924804688" width="400" height="188.85250854492188">
+                <frame id="3151:10319" name="Frame 1984078054" x="0" y="0" width="400" height="39">
+                  <text id="3151:10320" name="Backing from a reputable journal" x="24" y="16" width="352" height="23" />
+                </frame>
+                <frame id="3151:10321" name="Frame 1984078055" x="0" y="63" width="306.833984375" height="31.85250473022461">
+                  <frame id="3151:10322" name="Logos Container" x="24" y="0" width="258.833984375" height="31.85250473022461">
+                    <rounded-rectangle id="3151:10323" name="Logo Image" x="4" y="6" width="63.3781623840332" height="15.8445405960083" />
+                    <rounded-rectangle id="3151:10324" name="Logo Image" x="75.37815856933594" y="6" width="53.305294036865234" height="16.324745178222656" />
+                    <rounded-rectangle id="3151:10325" name="Logo Image" x="136.68345642089844" y="6" width="43.824066162109375" height="19.85250473022461" />
+                    <rounded-rectangle id="3151:10326" name="Logo Image" x="188.5075225830078" y="6" width="66.32646942138672" height="19.431583404541016" />
+                  </frame>
+                </frame>
+                <frame id="3151:10327" name="Frame 1984078056" x="0" y="118.85250854492188" width="400" height="70">
+                  <text id="3151:10328" name="Why this works:  Journals do rigorous vetting, users trust that process" x="24" y="20" width="352" height="30" />
+                </frame>
+              </frame>
+              <frame id="3151:10329" name="Frame 1984078059" x="410" y="0" width="400" height="248.46075439453125">
+                <frame id="3151:10330" name="Frame 1984078054" x="0" y="0" width="400" height="39">
+                  <text id="3151:10331" name="Transparency into methodology" x="24" y="16" width="352" height="23" />
+                </frame>
+                <frame id="3151:10332" name="Frame 1984078055" x="0" y="63" width="310" height="76.46074676513672">
+                  <rounded-rectangle id="3151:10333" name="Screenshot 2026-10-07 at 1.47.20 PM 1" x="18.14634132385254" y="0" width="273.70733642578125" height="76.46075439453125" />
+                </frame>
+                <frame id="3151:10334" name="Frame 1984078056" x="0" y="163.46075439453125" width="400" height="85">
+                  <text id="3151:10335" name="Why this works:  Users feel more at ease when they can verify the steps taken to get to a result" x="24" y="20" width="352" height="45" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3151:10336" name="Frame 1984078056" x="461" y="0" width="536" height="56">
+              <text id="3151:10337" name="How do policy-makers decide to trust something?" x="24" y="16" width="488" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3101:10074" name="Frame 1984078139" x="0" y="1292" width="857" height="206">
+        <text id="3058:2000" name="I realized our existing solutions had only considered gaining trust from only policy-makers but had not considered how to gain a person’s trust in general" x="60" y="0" width="762" height="50" />
+        <text id="3058:1345" name="The solution needed to include users in determining the inputs that went into the results and give them veto power" x="60" y="62" width="737" height="144" />
+      </frame>
+    </frame>
+    <frame id="3155:10351" name="Frame 1984078171" x="0" y="4843" width="1440.001220703125" height="2745.658203125">
+      <frame id="3153:10339" name="Frame 1984078164" x="0" y="0" width="1151" height="904.0343017578125">
+        <frame id="3058:1346" name="Frame 1984078061" x="60" y="0" width="972" height="125">
+          <text id="3058:1347" name="SOLUTION" x="0" y="0" width="972" height="25" />
+          <text id="3058:1348" name="The redesign turns one question into a two-stage flow where users steer which evidence is selected" x="0" y="29" width="857" height="96" />
+        </frame>
+        <frame id="3103:10095" name="Frame 1984078150" x="60" y="173" width="1031" height="731.0343017578125">
+          <frame id="3101:10075" name="Frame 1984078140" x="0" y="0" width="1031" height="322.6191711425781">
+            <frame id="3058:1359" name="Frame 1984078063" x="0" y="0" width="609" height="94">
+              <text id="3058:1360" name="Stage 1: Defining the problem" x="0" y="0" width="609" height="15" />
+              <text id="3058:1361" name="The AI asks scoping questions and drafts a problem statement. The user confirms or corrects it, and only then does the evidence check run against it" x="0" y="19" width="609" height="75" />
+            </frame>
+            <frame id="3058:1365" name="Group 4" x="0" y="142" width="488" height="180.61917114257812">
+              <frame id="3058:1366" name="Container" x="0" y="142" width="488" height="153.13720703125">
+                <frame id="3058:1367" name="Container" x="0" y="0" width="488" height="113.68012237548828">
+                  <frame id="3058:1368" name="Container" x="5.728539943695068" y="10.024945259094238" width="476.54290771484375" height="66.86427307128906">
+                    <text id="3058:1369" name="Title" x="0" y="0" width="71" height="10" />
+                    <text id="3058:1370" name="Description" x="0" y="12.864270210266113" width="476.54290771484375" height="54" />
+                  </frame>
+                  <instance id="3058:1371" name="Button" x="5.728539943695068" y="91.9266357421875" width="65.45708465576172" height="11.728540420532227" />
+                </frame>
+                <frame id="3058:1372" name="Container" x="0" y="122.27293395996094" width="488" height="30.864269256591797">
+                  <text id="3058:1373" name="Title" x="0" y="0" width="59" height="10" />
+                  <text id="3058:1374" name="Description" x="0" y="12.864270210266113" width="488" height="18" />
+                </frame>
+              </frame>
+              <instance id="3058:1375" name="Button" x="0" y="310.890625" width="56.45708084106445" height="11.728540420532227" />
+            </frame>
+          </frame>
+          <frame id="3101:10076" name="Frame 1984078141" x="0" y="314.6191711425781" width="1031" height="416.41510009765625">
+            <frame id="3058:1362" name="Frame 1984078064" x="476" y="0" width="555" height="69">
+              <text id="3058:1363" name="Stage 2: Diagnosing root causes" x="0" y="0" width="555" height="15" />
+              <text id="3058:1364" name="The user inputs their ideas on root causes or brings their own research and the system compares each against the evidence" x="0" y="19" width="555" height="50" />
+            </frame>
+            <frame id="3058:1376" name="Frame 1984077992" x="476" y="117" width="555" height="299.41510009765625">
+              <frame id="3058:1377" name="Frame 1984077991" x="150.75848388671875" y="0" width="404.24151611328125" height="49.849056243896484">
+                <text id="3058:1378" name="Yes, that&#39;s right. The growth-out-of-poverty story isn&#39;t translating into kids out of work" x="14.309432983398438" y="11.924528121948242" width="375.6226501464844" height="26" />
+              </frame>
+              <frame id="3058:1379" name="Frame 1984078042" x="0" y="68.92829895019531" width="555" height="230.48678588867188">
+                <frame id="3058:1380" name="Comp/followupQuestions" x="0" y="0" width="474" height="230.48678588867188">
+                  <frame id="3058:1381" name="Frame 1984077974" x="0" y="0" width="474" height="32.079246520996094">
+                    <text id="3058:1382" name="What do you think is driving this at that scale?" x="14.309433937072754" y="9.539777755737305" width="227" height="13" />
+                    <frame id="3058:1383" name="Frame 1984077979" x="410.3056640625" y="11.03962230682373" width="49.38490676879883" height="10">
+                      <text id="3058:1384" name="Question" x="0" y="0" width="35" height="10" />
+                      <text id="3058:1385" name="1/2" x="37.38490676879883" y="0" width="12" height="10" />
+                    </frame>
+                  </frame>
+                  <line id="3058:1386" name="Line 25" x="0" y="32.079246520996094" width="474" height="0" />
+                  <frame id="3058:1387" name="Frame 1984077976" x="0" y="32.079246520996094" width="474" height="159.78866577148438">
+                    <instance id="3058:1388" name="Comp/multipleSelection" x="14.309433937072754" y="11.924620628356934" width="445.381103515625" height="28.618865966796875" />
+                    <instance id="3058:1389" name="Comp/multipleSelection" x="14.309432983398438" y="47.69811248779297" width="445.381103515625" height="28.618865966796875" />
+                    <instance id="3058:1390" name="Comp/multipleSelection" x="14.309432983398438" y="83.47169494628906" width="445.381103515625" height="28.618865966796875" />
+                    <instance id="3058:1391" name="Comp/multipleSelection" x="14.309432983398438" y="119.24527740478516" width="445.381103515625" height="28.618865966796875" />
+                  </frame>
+                  <line id="3058:1392" name="Line 26" x="0" y="191.867919921875" width="474" height="0" />
+                  <frame id="3058:1393" name="Frame 1984077977" x="0" y="191.867919921875" width="474" height="38.618865966796875">
+                    <instance id="3058:1394" name="Button" x="14.309432983398438" y="9.53962230682373" width="36.079246520996094" height="19.539621353149414" />
+                    <instance id="3058:1395" name="Button" x="386.611328125" y="9.53962230682373" width="73.0792465209961" height="19.539621353149414" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3103:10097" name="Frame 1984078151" x="0" y="1072.0343017578125" width="1440.001220703125" height="1673.6240234375">
+        <frame id="3058:2004" name="Frame 1984078097" x="60" y="0" width="857" height="340">
+          <text id="3058:1351" name="Edge case: Some users didn&#39;t have the context to answer key questions" x="0" y="0" width="857" height="144" />
+          <frame id="3058:1352" name="Frame 1984078085" x="0" y="148" width="857" height="192">
+            <text id="3058:1353" name="I decided: to build an escape hatch because forcing an answer risked losing users and letting them guess risked a misleading output" x="0" y="0" width="857" height="192" />
+          </frame>
+        </frame>
+        <frame id="3103:10078" name="Group 9" x="60" y="436" width="1320.001220703125" height="1237.6240234375">
+          <frame id="3103:10077" name="Frame 1984078142" x="417.73046875" y="1392" width="331.7486877441406" height="65">
+            <text id="3058:1358" name="It draws on the same vetted evidence, so less input means less specificity, never less rigour. The AI doesn&#39;t fill gaps with guesses about the user&#39;s situation" x="7.8743438720703125" y="10" width="316" height="45" />
+          </frame>
+          <frame id="3058:2011" name="Frame 1984078101" x="60" y="436" width="503.61846923828125" height="841.5032348632812">
+            <text id="3058:1355" name="POV: user with less context (escape hatch user)" x="0" y="0" width="231" height="15" />
+            <frame id="3058:2009" name="Frame 1984078099" x="0" y="27" width="503.61846923828125" height="814.5032348632812">
+              <frame id="3058:1476" name="Frame 1984078081" x="12" y="20" width="480" height="774.5032348632812">
+                <frame id="3058:1477" name="Frame 332" x="0" y="0" width="480" height="48.77430725097656">
+                  <frame id="3058:1478" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="48.77430725097656">
+                    <text id="3058:1479" name="I want to look into youth unemployment in Pakistan. I&#39;ve been reading that the actual official youth unemployment rate is pretty low but that the number might be misleading and that the real issue is underemployment or perhaps greater reliance on informal work (not joblessness)." x="9.785027503967285" y="8.387152671813965" width="209.67881774902344" height="32" />
+                  </frame>
+                </frame>
+                <frame id="3058:1480" name="Comp" x="0" y="58.13648223876953" width="480" height="56.77430725097656">
+                  <frame id="3058:1481" name="Response text" x="0" y="0" width="320.1771240234375" height="56.77430725097656">
+                    <frame id="3058:1482" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="32">
+                      <text id="3058:1483" name="Summary" x="-0.00020987758762203157" y="-0.0003028844075743109" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1484" name="The tension between a low official youth unemployment rate and concern about underemployment or informal work is the core puzzle here; the framing needs to avoid treating joblessness as the only labour-market problem. I have a few more questions so I can better understand the problem:" x="0" y="0" width="320.1771240234375" height="32" />
+                    </frame>
+                    <instance id="3058:1485" name="Comp" x="-0.00020987758762203157" y="187.85720825195312" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1486" name="Frame 323" x="0" y="44.58073043823242" width="96.3657455444336" height="8">
+                      <instance id="3058:1487" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1488" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1489" name="Frame 1984078073" x="0" y="124.27296447753906" width="480" height="82.13648223876953">
+                  <frame id="3058:1490" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="82.13648223876953">
+                    <frame id="3058:1491" name="Frame 1984078070" x="9.785012245178223" y="8.387152671813965" width="209.67884826660156" height="24">
+                      <frame id="3058:1492" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1493" name="1" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1494" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="24">
+                        <text id="3058:1495" name="Say more about what work looks like for young people who are counted as employed." x="0" y="0" width="195.6355743408203" height="16" />
+                        <text id="3058:1496" name="Skipped" x="0" y="16" width="195.6355743408203" height="8" />
+                      </frame>
+                    </frame>
+                    <frame id="3058:1497" name="Frame 1984078071" x="9.785012245178223" y="37.068241119384766" width="209.67884826660156" height="16">
+                      <frame id="3058:1498" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1499" name="2" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1500" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="16">
+                        <text id="3058:1501" name="Give me a sense of where and when this is happening." x="0" y="0" width="195.6355743408203" height="8" />
+                        <text id="3058:1502" name="Skipped" x="0" y="8" width="195.6355743408203" height="8" />
+                      </frame>
+                    </frame>
+                    <frame id="3058:1503" name="Frame 1984078072" x="9.785012245178223" y="57.74932861328125" width="209.67884826660156" height="16">
+                      <frame id="3058:1504" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1505" name="3" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1506" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="16">
+                        <text id="3058:1507" name="Help me understand who experiences this problem." x="0" y="0" width="195.6355743408203" height="8" />
+                        <text id="3058:1508" name="Skipped" x="0" y="8" width="195.6355743408203" height="8" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1509" name="Comp" x="0" y="215.77162170410156" width="480" height="104.77430725097656">
+                  <frame id="3058:1510" name="Response text" x="0" y="0" width="320.1771240234375" height="104.77430725097656">
+                    <frame id="3058:1511" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="80">
+                      <text id="3058:1512" name="Summary" x="-0.00020987758762203157" y="-0.00049661158118397" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1513" name="The evidence check supports your concern that the official unemployment rate may be too narrow a lens: Pakistan&#39;s youth unemployment rate is 9.6% in 2025, up from 1.0% in 2000, but the labour market evidence points to a much larger role for informal, unpaid, own-account, and non-wage work&#39;. Other Pakistan-specific evidence also suggests young workers&#39; jobs are often similar to or worse than those of older workers, with weak movement into better wage employment Here&#39;s how l&#39;d frame the problem: Pakistan&#39;s youth labour-market problem may be understated by the official unemployment rate because many young people are counted as working, but are in underemployment, informal work, unpaid family work, or other low-quality forms of employment rather than stable and productive jobs. Does that capture it?" x="0" y="0" width="320.1771240234375" height="80" />
+                    </frame>
+                    <instance id="3058:1514" name="Comp" x="-0.00020987758762203157" y="187.8570098876953" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1515" name="Frame 323" x="0" y="92.58073425292969" width="96.3657455444336" height="8">
+                      <instance id="3058:1516" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1517" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1518" name="Frame 1984078074" x="0" y="329.9081115722656" width="480" height="24.77430534362793">
+                  <frame id="3058:1519" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="24.77430534362793">
+                    <text id="3058:1520" name="Yes that captures it" x="9.785027503967285" y="8.387152671813965" width="209.67881774902344" height="8" />
+                  </frame>
+                </frame>
+                <instance id="3058:1521" name="Problem statement" x="0" y="364.0445861816406" width="380.72857666015625" height="56.167537689208984" />
+                <frame id="3058:1522" name="Comp" x="0" y="429.5743103027344" width="480" height="24.38715362548828">
+                  <frame id="3058:1523" name="Response text" x="0" y="0" width="320.1771240234375" height="24.38715362548828">
+                    <frame id="3058:1524" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="16">
+                      <text id="3058:1525" name="Summary" x="-0.00020987758762203157" y="-0.00019551125296857208" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1526" name="Got it. What do you think is keeping young people in underemployment, informal work, unpaid family work, or other low-quality jobs rather than moving into stable and productive employment?" x="0" y="0" width="320.1771240234375" height="16" />
+                    </frame>
+                    <instance id="3058:1527" name="Comp" x="-0.00020987758762203157" y="187.85731506347656" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1528" name="Frame 323" x="-0.00020987758762203157" y="90.59825134277344" width="95.70278930664062" height="7.80181360244751" hidden="true">
+                      <instance id="3058:1529" name="Comp" x="-0.00020987758762203157" y="0.0005956497043371201" width="66.38715362548828" height="8" />
+                      <instance id="3058:1530" name="Comp" x="71.71247863769531" y="0.0005956497043371201" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1531" name="Frame 1984078075" x="0" y="463.3236389160156" width="480" height="32.77430725097656">
+                  <frame id="3058:1532" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="32.77430725097656">
+                    <frame id="3058:1533" name="Frame 1984078070" x="9.785012245178223" y="8.387152671813965" width="209.67884826660156" height="16">
+                      <frame id="3058:1534" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1535" name="1" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1536" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="16">
+                        <text id="3058:1537" name="What do you think are the root causes of the issue?" x="0" y="0" width="195.6355743408203" height="8" />
+                        <frame id="3058:1538" name="Frame 1984078084" x="0" y="8" width="195.6355743408203" height="8">
+                          <text id="3058:1539" name="Skipped" x="0" y="0" width="195.6355743408203" height="8" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1540" name="Comp" x="0" y="505.4601135253906" width="480" height="269.0431213378906">
+                  <frame id="3058:1541" name="Response text" x="0" y="0" width="320.1771240234375" height="269.0431213378906">
+                    <frame id="3058:1542" name="Frame 324" x="-0.00020987758762203157" y="4.193395614624023" width="320.1771240234375" height="196.48291015625">
+                      <text id="3058:1543" name="Summary" x="-0.00020987758762203157" y="0.00003628012927947566" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1544" name="First, the outcome itself. The World Bank Statistical Dataset reports Youth Unemployment Rate (ages 15-24) (%) in Pakistan moves from 0.97 in 2000 to 9.59 in 2025, across 26 data points. While checking the evidence base, a few possible drivers surfaced — offered for your consideration as hypotheses to test, not conclusions. Low-productivity job growth - Employment growth may be happening mainly in activities that do not generate stable, protected, productive work. For Pakistani youth, this could mean the unemployment rate looks better because young people are counted as employed even when their jobs are in low-productivity sectors with little protection against shocks [1]. Weak worker protections - Jobs with minimal worker protections can make employment look stronger on paper than it feels in practice. In Pakistan, youth who enter work through poorly protected arrangements may be officially employed while still facing unstable income, weak security, and vulnerability to shocks [1]. Shock-driven youth scarring — Economic shocks can hit young workers first because they often have less experience, less seniority, or looser contracts, and firms may slow new hiring during uncertain periods. If similar post-pandemic dynamics affected Pakistan, some youth may have been pushed into poorer-quality work or delayed transitions into decent jobs rather than appearing as openly unemployed [2] [3]." x="0" y="0" width="320.1771240234375" height="128" />
+                      <line id="3058:1545" name="Line 29" x="0" y="134.241455078125" width="320.1771240234375" height="0" />
+                      <frame id="3058:1546" name="Frame 1984078086" x="0" y="140.48291015625" width="320.1771240234375" height="56">
+                        <text id="3058:1547" name="References" x="0" y="0" width="320.1771240234375" height="8" />
+                        <text id="3058:1548" name="Cho et al., 2012. Labor Market Policies under a Youth Bulge : How to Benefit from Demographic Dividend in Pakistan. Country-specific. Puerto et al., 2022. The Impact of Active Labour Market Programmes on Youth An Updated Systematic Review and Meta-Analysis. Global. Puerto et al., 2022. The Impact of Active Labour Market Programmes on Youth An Updated Systematic Review and Meta-Analysis. Global." x="0" y="8" width="320.1771240234375" height="48" />
+                      </frame>
+                    </frame>
+                    <instance id="3058:1549" name="Comp" x="-0.00020987758762203157" y="187.8575439453125" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <text id="3058:1550" name="Because the scope is broad, the evidence is generalized. If you would like a more specific evidence set or if the evidence points to a driver we haven’t named yet, flag it and I’ll add it. You can also bring any of the additional candidates above to be checked against the evidence. Otherwise, I’ll pull this together into your diagnostic memo." x="0" y="213.15939331054688" width="320.1771240234375" height="31.20725440979004" />
+                    <frame id="3058:1551" name="Frame 323" x="0" y="256.84954833984375" width="96.3657455444336" height="8">
+                      <instance id="3058:1552" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1553" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="3058:2018" name="Frame 1984078103" x="563.6184692382812" y="643" width="205.84405517578125" height="27">
+            <regular-polygon id="3058:2019" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+            <frame id="3058:2020" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="194" height="23">
+              <text id="3058:2021" name="When users take the escape hatch..." x="8" y="4" width="176" height="15" />
+            </frame>
+          </frame>
+          <frame id="3058:2025" name="Frame 1984078104" x="563.6184692382812" y="861" width="238.81907653808594" height="27">
+            <regular-polygon id="3058:2026" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+            <frame id="3058:2027" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="227" height="23">
+              <text id="3058:2028" name="...the AI scopes the problem more broadly..." x="8" y="4" width="209" height="15" />
+            </frame>
+          </frame>
+          <frame id="3058:2029" name="Frame 1984078105" x="563.6184692382812" y="1044" width="235.82135009765625" height="27">
+            <regular-polygon id="3058:2030" name="Polygon 1" x="0.0000011802076187450439" y="27" width="16.000003087552614" height="27.000000699383236" />
+            <frame id="3058:2031" name="Frame 1984078024" x="12.000003814697266" y="2.000000238418579" width="224" height="23">
+              <text id="3058:2032" name="...and returns a more generalized response" x="8" y="4" width="206" height="15" />
+            </frame>
+          </frame>
+          <frame id="3058:2010" name="Frame 1984078100" x="876.3815307617188" y="436" width="503.61846923828125" height="1237.6240234375">
+            <text id="3058:1356" name="POV: user with more context (for comparison)" x="0" y="0" width="503.61846923828125" height="15" />
+            <frame id="3058:2008" name="Frame 1984078098" x="0" y="27" width="503.61846923828125" height="1210.6240234375">
+              <frame id="3058:1396" name="Frame 1984078080" x="12" y="20" width="480" height="1170.6240234375">
+                <frame id="3058:1397" name="Frame 332" x="0" y="0" width="480" height="48.77430725097656">
+                  <frame id="3058:1398" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="48.77430725097656">
+                    <text id="3058:1399" name="I want to look into youth unemployment in Pakistan. I&#39;ve been reading that the actual official youth unemployment rate is pretty low but that the number might be misleading and that the real issue is underemployment or perhaps greater reliance on informal work (not joblessness)." x="9.785027503967285" y="8.387152671813965" width="209.67881774902344" height="32" />
+                  </frame>
+                </frame>
+                <frame id="3058:1400" name="Comp" x="0" y="58.13648223876953" width="480" height="56.77430725097656">
+                  <frame id="3058:1401" name="Response text" x="0" y="0" width="320.1771240234375" height="56.77430725097656">
+                    <frame id="3058:1402" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="32">
+                      <text id="3058:1403" name="Summary" x="0" y="-0.0003028844075743109" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1404" name="The tension between a low official youth unemployment rate and concern about underemployment or informal work is the core puzzle here; the framing needs to avoid treating joblessness as the only labour-market problem. I have a few more questions so I can better understand the problem:" x="0" y="0" width="320.1771240234375" height="32" />
+                    </frame>
+                    <instance id="3058:1405" name="Comp" x="0" y="187.85720825195312" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1406" name="Frame 323" x="0" y="44.58073043823242" width="96.3657455444336" height="8">
+                      <instance id="3058:1407" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1408" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1409" name="Frame 1984078073" x="0" y="124.27296447753906" width="480" height="98.13648223876953">
+                  <frame id="3058:1410" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="98.13648223876953">
+                    <frame id="3058:1411" name="Frame 1984078070" x="9.785012245178223" y="8.387152671813965" width="209.67884826660156" height="40">
+                      <frame id="3058:1412" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1413" name="1" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1414" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="40">
+                        <text id="3058:1415" name="Say more about what work looks like for young people who are counted as employed." x="0" y="0" width="195.6355743408203" height="16" />
+                        <text id="3058:1416" name="official youth unemployment rate is pretty low, but may be misleading because underemployment or informal work might be bigger problems compared to joblessness in this instance" x="0" y="16" width="195.6355743408203" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="3058:1417" name="Frame 1984078071" x="9.785012245178223" y="53.068241119384766" width="209.67884826660156" height="16">
+                      <frame id="3058:1418" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1419" name="2" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1420" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="16">
+                        <text id="3058:1421" name="Give me a sense of where and when this is happening." x="0" y="0" width="195.6355743408203" height="8" />
+                        <text id="3058:1422" name="Pakistan" x="0" y="8" width="195.6355743408203" height="8" />
+                      </frame>
+                    </frame>
+                    <frame id="3058:1423" name="Frame 1984078072" x="9.785012245178223" y="73.74932861328125" width="209.67884826660156" height="16">
+                      <frame id="3058:1424" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1425" name="3" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1426" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="16">
+                        <text id="3058:1427" name="Help me understand who experiences this problem." x="0" y="0" width="195.6355743408203" height="8" />
+                        <text id="3058:1428" name="youth" x="0" y="8" width="195.6355743408203" height="8" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1429" name="Comp" x="0" y="231.77162170410156" width="480" height="104.77430725097656">
+                  <frame id="3058:1430" name="Response text" x="0" y="0" width="320.1771240234375" height="104.77430725097656">
+                    <frame id="3058:1431" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="80">
+                      <text id="3058:1432" name="Summary" x="0" y="-0.000384600309189409" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1433" name="The evidence check supports your concern that the official unemployment rate may be too narrow a lens: Pakistan&#39;s youth unemployment rate is 9.6% in 2025, up from 1.0% in 2000, but the labour market evidence points to a much larger role for informal, unpaid, own-account, and non-wage work&#39;. Other Pakistan-specific evidence also suggests young workers&#39; jobs are often similar to or worse than those of older workers, with weak movement into better wage employment Here&#39;s how l&#39;d frame the problem: Pakistan&#39;s youth labour-market problem may be understated by the official unemployment rate because many young people are counted as working, but are in underemployment, informal work, unpaid family work, or other low-quality forms of employment rather than stable and productive jobs. Does that capture it?" x="0" y="0" width="320.1771240234375" height="80" />
+                    </frame>
+                    <instance id="3058:1434" name="Comp" x="0" y="187.85711669921875" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1435" name="Frame 323" x="0" y="92.58073425292969" width="96.3657455444336" height="8">
+                      <instance id="3058:1436" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1437" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1438" name="Frame 1984078074" x="0" y="345.9081115722656" width="480" height="24.77430534362793">
+                  <frame id="3058:1439" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="24.77430534362793">
+                    <text id="3058:1440" name="Yes that captures it" x="9.785027503967285" y="8.387152671813965" width="209.67881774902344" height="8" />
+                  </frame>
+                </frame>
+                <instance id="3058:1441" name="Problem statement" x="0" y="380.0445861816406" width="380.72857666015625" height="70.16754150390625" />
+                <frame id="3058:1442" name="Comp" x="0" y="459.5743103027344" width="480" height="24.38715362548828">
+                  <frame id="3058:1443" name="Response text" x="0" y="0" width="320.1771240234375" height="24.38715362548828">
+                    <frame id="3058:1444" name="Frame 324" x="0" y="4.193572044372559" width="320.1771240234375" height="16">
+                      <text id="3058:1445" name="Summary" x="0" y="0.000021997264411766082" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1446" name="Got it. What do you think is keeping young people in underemployment, informal work, unpaid family work, or other low-quality jobs rather than moving into stable and productive employment?" x="0" y="0" width="320.1771240234375" height="16" />
+                    </frame>
+                    <instance id="3058:1447" name="Comp" x="0" y="187.8577117919922" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <frame id="3058:1448" name="Frame 323" x="0" y="90.59866333007812" width="95.70278930664062" height="7.80181360244751" hidden="true">
+                      <instance id="3058:1449" name="Comp" x="0" y="-0.0009493413963355124" width="66.38715362548828" height="8" />
+                      <instance id="3058:1450" name="Comp" x="71.71268463134766" y="-0.0009493413963355124" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1451" name="Frame 1984078075" x="0" y="493.3236389160156" width="480" height="62.89503479003906">
+                  <frame id="3058:1452" name="Frame 70" x="250.75112915039062" y="0" width="229.24887084960938" height="62.89503479003906">
+                    <frame id="3058:1453" name="Frame 1984078070" x="9.785012245178223" y="8.387152671813965" width="209.67884826660156" height="46.1207275390625">
+                      <frame id="3058:1454" name="Frame 1984078068" x="0" y="0" width="9.362176895141602" height="9.362176895141602">
+                        <text id="3058:1455" name="1" x="1.9114446640014648" y="1.6810884475708008" width="5.539287567138672" height="6" />
+                      </frame>
+                      <frame id="3058:1456" name="Frame 1984078069" x="14.043272972106934" y="0" width="195.6355743408203" height="46.1207275390625">
+                        <text id="3058:1457" name="What do you think are the root causes of the issue?" x="0" y="0" width="195.6355743408203" height="8" />
+                        <frame id="3058:1458" name="Frame 1984078084" x="0" y="8" width="195.6355743408203" height="38.1207275390625">
+                          <text id="3058:1459" name="I think the education-skills mismatch might be part of the story. In this case the education system may not be preparing youth with the skills needed to enter the workforce." x="0" y="0" width="195.6355743408203" height="21" />
+                          <text id="3058:1460" name="Population growth might also be a factor as well since Pakistan has such a young population." x="0" y="24.120725631713867" width="195.6355743408203" height="14" />
+                        </frame>
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="3058:1461" name="Comp" x="0" y="565.5808715820312" width="480" height="605.0431518554688">
+                  <frame id="3058:1462" name="Response text" x="0" y="0" width="320.1771240234375" height="605.0431518554688">
+                    <frame id="3058:1463" name="Frame 324" x="0" y="4.193576812744141" width="320.1771240234375" height="532.48291015625">
+                      <text id="3058:1464" name="Summary" x="0" y="-0.0002160701696993783" width="95.75333404541016" height="9" hidden="true" />
+                      <text id="3058:1465" name="First, the outcome itself. The World Bank Statistical Dataset reports Youth Unemployment Rate (ages 15-24) (%) in Pakistan moves from 0.97 in 2000 to 9.59 in 2025, across 26 data points. That is the measured outcome the candidate drivers below are trying to explain — weigh each driver&#39;s evidence against it. Here&#39;s how the evidence sits for each candidate driver below. 1. Education-skills mismatch: the education system may not be preparing youth with the skills needed to enter the workforce The evidence broadly supports an education-skills mismatch mechanism: employer-demand reviews find recurring gaps in socio-emotional and higher-order cognitive skills [1], and country evidence from Cambodia links employer-reported skills gaps to curricula and teaching methods that do not build needed technical and soft skills [2]. The closest regional source explicitly includes Pakistan among South Asian countries with high youth unemployment and describes low training quality, weak industry confidence in technical education, and shortages of skilled labour as investment constraints [3]. That said, some evidence cautions against treating all graduate job mismatch as an education-system failure: the Spain graduate study argues early-career mismatch can reflect lack of work experience or normal career mobility rather than poor preparation [4], and broader World Bank evidence notes that weak demand for skilled labour can also leave graduates unemployed even when education expands [5]. 2. Population growth: Pakistan has such a young population, so labour-market entry may be outpacing absorption into stable work The Pakistan evidence is aligned with the proposed mechanism: several sources describe a youth-heavy population and growing labour-force entry creating pressure that job creation has not absorbed, especially into better or more stable work. One Pakistan labour-market assessment reports that labour-force growth outpaced working-age population growth while total employment growth lagged behind, leaving many people underutilized or searching for jobs and showing slow growth in non-agricultural and paid employment [6]. Other Pakistan-focused sources make the same point more descriptively: job creation has not kept pace with population growth [7], the youth bulge creates a need to employ new entrants [8], and high fertility/demographic bulge requires rapid job creation to avoid becoming a social and economic burden [9]. The evidence supports the cause as a descriptive labour-market pressure, though it is mostly policy-report and trend evidence rather than a causal test isolating population growth from other constraints like skills, investment, productivity, or macroeconomic conditions [10]. While checking the evidence base, a few additional possible drivers surfaced — offered for your consideration as hypotheses to test, not conclusions: Low-productivity job growth - Employment growth may be happening mainly in activities that do not generate stable, protected, productive work. For Pakistani youth, this could mean the unemployment rate looks better because young people are counted as employed even when their jobs are in low-productivity sectors with little protection against shocks [8]. Weak worker protections - Jobs with minimal worker protections can make employment look stronger on paper than it feels in practice. In Pakistan, youth who enter work through poorly protected arrangements may be officially employed while still facing unstable income, weak security, and vulnerability to shocks [8]. Shock-driven youth scarring — Economic shocks can hit young workers first because they often have less experience, less seniority, or looser contracts, and firms may slow new hiring during uncertain periods. If similar post-pandemic dynamics affected Pakistan, some youth may have been pushed into poorer-quality work or delayed transitions into decent jobs rather than appearing as openly unemployed [11] [12]." x="0" y="0" width="320.1771240234375" height="352" />
+                      <line id="3058:1466" name="Line 29" x="0" y="358.241455078125" width="320.1771240234375" height="0" />
+                      <frame id="3058:1467" name="Frame 1984078086" x="0" y="364.48291015625" width="320.1771240234375" height="168">
+                        <text id="3058:1468" name="References" x="0" y="0" width="320.1771240234375" height="8" />
+                        <text id="3058:1469" name="Villaseñor et al., 2016. Employer Voices, Employer Demands, and Implications for Public Skills Development Policy Connecting the Labor and Education Sectors. Global. World Bank, 2010. Providing skills for equity and growth : preparing Cambodia&#39;s youth for the labor market. Country-specific. Martínez-Fernández et al., 2012. Skills Development Pathways in Asia. Regional. Velasco, 2021. Mapping the (mis)match of university degrees in the graduate labor market. Country-specific. World Bank, 2012. Skills for Solomon Islands: opening new opportunities (Vol. 1 of 2) : Executive summary. Country-specific. Ahmed et al., 2019. Pakistan at 100 : Human Capital. Country-specific. World Bank, 2019. Pakistan - Skills Assessment for Economic Growth. Country-specific. Cho et al., 2012. Labor Market Policies under a Youth Bulge : How to Benefit from Demographic Dividend in Pakistan. Country-specific. Lopez-Calix, 2013. Pakistan : Path to Rapid Growth and Job Creation. Country-specific. Smith, 2018. Managed labor migration in Afghanistan: identifying host countries for managed migration from Afghanistan. Country-specific. Puerto et al., 2022. The Impact of Active Labour Market Programmes on Youth An Updated Systematic Review and Meta-Analysis. Global. Puerto et al., 2022. The Impact of Active Labour Market Programmes on Youth An Updated Systematic Review and Meta-Analysis. Global." x="0" y="8" width="320.1771240234375" height="160" />
+                      </frame>
+                    </frame>
+                    <instance id="3058:1470" name="Comp" x="0" y="187.85728454589844" width="95.75333404541016" height="20.268953323364258" hidden="true" />
+                    <text id="3058:1471" name="Because the scope is broad, the evidence is generalized. If you would like a more specific evidence set or if the evidence points to a driver we haven’t named yet, flag it and I’ll add it. You can also bring any of the additional candidates above to be checked against the evidence. Otherwise, I’ll pull this together into your diagnostic memo." x="0" y="549.159423828125" width="320.1771240234375" height="31.20725440979004" />
+                    <frame id="3058:1472" name="Frame 323" x="0" y="592.849609375" width="96.3657455444336" height="8">
+                      <instance id="3058:1473" name="Comp" x="0" y="0" width="66.38715362548828" height="8" />
+                      <instance id="3058:1474" name="Comp" x="71.97859191894531" y="0" width="24.38715362548828" height="8" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="3155:10352" name="Frame 1984078172" x="0" y="7924.658203125" width="977" height="688">
+      <frame id="3103:10079" name="Frame 1984078143" x="0" y="0" width="857" height="337">
+        <text id="3058:1558" name="The new user experience helped secure a $1M funding round" x="60" y="0" width="737" height="96" />
+        <frame id="3058:1559" name="Frame 1984078090" x="60" y="144" width="679" height="193">
+          <text id="3058:1560" name="Other stats" x="36" y="28" width="119" height="30" />
+          <frame id="3058:1561" name="Frame 1984078089" x="36" y="78" width="607" height="87">
+            <frame id="3058:1562" name="Frame 1984078089" x="0" y="0" width="135" height="57">
+              <frame id="3058:1563" name="Frame 1984078094" x="0" y="0" width="135" height="38">
+                <text id="3058:1564" name="70% → 20%" x="8" y="4" width="119" height="30" />
+              </frame>
+              <text id="3058:1565" name="change in drop-off rate" x="0" y="42" width="113" height="15" />
+            </frame>
+            <frame id="3058:1566" name="Frame 1984078087" x="215" y="0" width="77" height="57">
+              <frame id="3058:1567" name="Frame 1984078092" x="0" y="0" width="75" height="38">
+                <text id="3058:1568" name="+22%" x="8" y="4" width="59" height="30" />
+              </frame>
+              <text id="3058:1569" name="longer sessions" x="0" y="42" width="77" height="15" />
+            </frame>
+            <frame id="3058:1570" name="Frame 1984078088" x="372" y="0" width="235" height="87">
+              <frame id="3058:1571" name="Frame 1984078094" x="0" y="0" width="75" height="38">
+                <text id="3058:1572" name="+66%" x="8" y="4" width="59" height="30" />
+              </frame>
+              <text id="3058:1573" name="sessions resulted in users using the AI’s evidence (a proxy for trust)" x="0" y="42" width="235" height="45" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3060:2079" name="Frame 1984078092" x="0" y="505" width="977" height="183">
+        <text id="3060:2081" name="Users’ preferences are a weak signal that need to be tested" x="60" y="0" width="857" height="96" />
+        <text id="3060:2082" name="Next time, I would dig deeper by not only hearing what users have to say but also observing what users are doing. Based on that, I would validate with quick prototypes first before implementing something." x="60" y="108" width="857" height="75" />
+      </frame>
+    </frame>
+    <frame id="3103:10086" name="Frame 1984078145" x="0" y="8948.658203125" width="1440.001220703125" height="1061">
+      <frame id="3100:8433" name="Frame 1984078096" x="324.0006103515625" y="0" width="792" height="537">
+        <frame id="3100:8434" name="Frame 14" x="16" y="16" width="760" height="124">
+          <text id="3100:8435" name="See next project" x="0" y="0" width="143" height="25" />
+          <frame id="3100:8436" name="Frame 1984078111" x="0" y="45" width="760" height="79">
+            <text id="3100:8437" name="Cutting compute costs by 30% by redesigning AI responses around common tasks" x="0" y="0" width="760" height="60" />
+            <text id="3100:8438" name="AI product design" x="0" y="64" width="87" height="15" />
+          </frame>
+        </frame>
+        <frame id="3100:8439" name="Frame 13" x="16" y="148" width="760" height="373" />
+        <frame id="3100:9689" name="Frame 1984078095" x="18" y="155" width="528" height="269.005615234375">
+          <frame id="3100:9695" name="Frame 60" x="8.849163055419922" y="0" width="499.9776611328125" height="269.005615234375">
+            <frame id="3100:9696" name="Frame 95" x="0" y="0" width="499.9776611328125" height="269.005615234375">
+              <frame id="3100:9697" name="Frame 94" x="2.9497056007385254" y="0" width="494.0782470703125" height="269.005615234375">
+                <frame id="3100:9698" name="Frame 1984077946" x="0" y="0" width="494.0782470703125" height="269.005615234375">
+                  <frame id="3100:9699" name="Frame 1984077890" x="0" y="0" width="494.0782470703125" height="56.446929931640625">
+                    <frame id="3100:9700" name="Frame 1984077888" x="11.798883438110352" y="0" width="470.48046875" height="8.94972038269043">
+                      <text id="3100:9701" name="Grant amount" x="0" y="1.4748601913452148" width="31" height="6" />
+                      <frame id="3100:9702" name="Frame 1984077887" x="35.424583435058594" y="0" width="416.6481018066406" height="8.94972038269043">
+                        <instance id="3100:9703" name="Buttons/categoryTags" x="0" y="0" width="14.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9704" name="Buttons/categoryTags" x="17.79888343811035" y="0" width="37.84916305541992" height="8.94972038269043" />
+                        <instance id="3100:9705" name="Buttons/categoryTags" x="58.59777069091797" y="0" width="30.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9706" name="Buttons/categoryTags" x="92.39665222167969" y="0" width="26.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9707" name="Buttons/categoryTags" x="122.1955337524414" y="0" width="28.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9708" name="Buttons/categoryTags" x="153.99441528320312" y="0" width="58.84916305541992" height="8.94972038269043" />
+                      </frame>
+                    </frame>
+                    <frame id="3100:9709" name="Frame 1984077890" x="11.798883438110352" y="17.79888343811035" width="470.48046875" height="20.84916114807129">
+                      <text id="3100:9710" name="Issuing body" x="0" y="0" width="29" height="6" />
+                      <frame id="3100:9711" name="Frame 1984077887" x="33.424583435058594" y="0" width="437.0558776855469" height="20.84916114807129">
+                        <instance id="3100:9712" name="Buttons/categoryTags" x="-0.0004140469536650926" y="-0.00018012964574154466" width="87.75419616699219" height="8.849163055419922" hidden="true" />
+                        <instance id="3100:9713" name="Buttons/categoryTags" x="0" y="0" width="87.84916687011719" height="8.94972038269043" />
+                        <instance id="3100:9714" name="Buttons/categoryTags" x="90.79888916015625" y="0" width="94.84916687011719" height="8.94972038269043" />
+                        <instance id="3100:9715" name="Buttons/categoryTags" x="188.5977783203125" y="0" width="94.84916687011719" height="8.94972038269043" />
+                        <instance id="3100:9716" name="Buttons/categoryTags" x="286.39666748046875" y="0" width="31.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9717" name="Buttons/categoryTags" x="321.195556640625" y="0" width="70.84916687011719" height="8.94972038269043" />
+                        <instance id="3100:9718" name="Buttons/categoryTags" x="394.99444580078125" y="0" width="23.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9719" name="Buttons/categoryTags" x="0" y="11.89944076538086" width="98.84916687011719" height="8.94972038269043" />
+                      </frame>
+                    </frame>
+                    <frame id="3100:9720" name="Frame 1984077889" x="11.798883438110352" y="47.49720764160156" width="470.48046875" height="8.94972038269043">
+                      <text id="3100:9721" name="Relevancy of projects" x="0" y="1.4748601913452148" width="48" height="6" />
+                      <frame id="3100:9722" name="Frame 1984077887" x="52.424583435058594" y="0" width="113.44692993164062" height="8.94972038269043">
+                        <instance id="3100:9723" name="Buttons/categoryTags" x="0" y="0" width="14.849163055419922" height="8.94972038269043" />
+                        <instance id="3100:9724" name="Buttons/categoryTags" x="17.79888343811035" y="0" width="49.84916305541992" height="8.94972038269043" />
+                        <instance id="3100:9725" name="Buttons/categoryTags" x="70.59777069091797" y="0" width="42.84916305541992" height="8.94972038269043" />
+                      </frame>
+                    </frame>
+                  </frame>
+                  <frame id="3100:9726" name="Frame 1984077945" x="0" y="56.446929931640625" width="494.0782470703125" height="212.5586700439453">
+                    <frame id="3100:9727" name="Frame 1984077944" x="0" y="0" width="494.0782470703125" height="200.1843719482422">
+                      <text id="3100:9728" name="Approved date" x="6.550544640049338e-8" y="114.5921859741211" width="5.0000003458189894" height="29.000000059622835" />
+                      <frame id="3100:9729" name="Frame 1984077940" x="12.374302864074707" y="0" width="481.7039489746094" height="200.1843719482422">
+                        <instance id="3100:9730" name="Comp/dateLine" x="0" y="0" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9731" name="Comp/dateLine" x="0" y="28.597766876220703" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9732" name="Comp/dateLine" x="0" y="57.195533752441406" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9733" name="Comp/dateLine" x="0" y="85.79330444335938" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9734" name="Comp/dateLine" x="0" y="114.39106750488281" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9735" name="Comp/dateLine" x="0" y="142.98883056640625" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9736" name="Comp/dateLine" x="0" y="171.5865936279297" width="481.91064453125" height="28.597766876220703" />
+                        <instance id="3100:9737" name="L" x="363.546875" y="36.048828125" width="47.195533752441406" height="47.195533752441406" />
+                        <instance id="3100:9738" name="S" x="327.4140625" y="47.478515625" width="23.597766876220703" height="23.597766876220703" />
+                        <instance id="3100:9739" name="XS" x="86.28125" y="83.244140625" width="16.223464965820312" height="16.223464965820312" />
+                        <instance id="3100:9740" name="L" x="162.6015625" y="141.130859375" width="47.195533752441406" height="47.195533752441406" />
+                        <instance id="3100:9741" name="XS" x="94.390625" y="157.35546875" width="16.223464965820312" height="16.223464965820312" />
+                        <instance id="3100:9742" name="XXS" x="275.42578125" y="137.078125" width="11.798883438110352" height="11.798883438110352" />
+                        <instance id="3100:9743" name="XS" x="342.8984375" y="80.29296875" width="16.223464965820312" height="16.223464965820312" />
+                      </frame>
+                    </frame>
+                    <frame id="3100:9744" name="Frame 1984077942" x="0" y="200.1843719482422" width="494.0782470703125" height="12.37430191040039">
+                      <text id="3100:9745" name="Medium relevancy" x="12.16759967803955" y="7.374302387237549" width="36" height="5" />
+                      <text id="3100:9746" name="High relevancy" x="465.0782470703125" y="7.374302387237549" width="29" height="5" />
+                    </frame>
+                  </frame>
+                  <frame id="3100:9747" name="Card" x="195.54296875" y="108.591796875" width="85.10282897949219" height="99.79598236083984">
+                    <frame id="3100:9748" name="Header" x="0" y="0" width="85.10282897949219" height="4.829710006713867">
+                      <frame id="3100:9749" name="Frame" x="0" y="0" width="85.10282897949219" height="4.829710006713867" />
+                    </frame>
+                    <frame id="3100:9750" name="Content" x="0" y="4.829710006713867" width="85.10282897949219" height="80.14105987548828">
+                      <frame id="3100:9751" name="Primary Info" x="0" y="0" width="85.10282897949219" height="18.66166877746582">
+                        <frame id="3100:9752" name="Details Container" x="3.9970014095306396" y="0" width="70.61370086669922" height="18.66166877746582">
+                          <frame id="3100:9753" name="Status Info" x="0" y="0" width="70.61370086669922" height="3.3308348655700684">
+                            <instance id="3100:9754" name="Comp/status" x="0" y="0" width="11.997001647949219" height="3.3308348655700684" />
+                            <text id="3100:9755" name="Active Period" x="12.663168907165527" y="0.16541743278503418" width="57.950531005859375" height="3" />
+                          </frame>
+                          <text id="3100:9756" name="Description" x="0" y="6.661669731140137" width="70.61370086669922" height="12" />
+                        </frame>
+                        <instance id="3100:9757" name="Icon" x="76.44265747070312" y="0" width="4.6631693840026855" height="4.6631693840026855" />
+                      </frame>
+                      <frame id="3100:9758" name="Section" x="0" y="23.991004943847656" width="85.10282897949219" height="44.820716857910156">
+                        <frame id="3100:9759" name="Frame 1984077960" x="0" y="0" width="85.10282897949219" height="25.327835083007812">
+                          <frame id="3100:9760" name="Objectives" x="0" y="0" width="85.10282897949219" height="6.66616678237915">
+                            <text id="3100:9761" name="Objectives Title" x="3.9970052242279053" y="0" width="73.77798461914062" height="3" />
+                            <text id="3100:9762" name="Objectives Description" x="3.9970052242279053" y="3.6661670207977295" width="73.77798461914062" height="3" />
+                          </frame>
+                          <frame id="3100:9763" name="Objectives" x="0" y="9.33083438873291" width="85.10282897949219" height="6.66616678237915">
+                            <text id="3100:9764" name="Objectives Title" x="3.9970052242279053" y="0" width="73.77798461914062" height="3" />
+                            <text id="3100:9765" name="Objectives Description" x="3.9970052242279053" y="3.6661670207977295" width="73.77798461914062" height="3" />
+                          </frame>
+                          <frame id="3100:9766" name="Objectives" x="0" y="18.66166877746582" width="85.10282897949219" height="6.66616678237915">
+                            <text id="3100:9767" name="Objectives Title" x="3.9970052242279053" y="0" width="73.77798461914062" height="3" />
+                            <text id="3100:9768" name="Objectives Description" x="3.9970052242279053" y="3.6661670207977295" width="73.77798461914062" height="3" />
+                          </frame>
+                        </frame>
+                        <frame id="3100:9769" name="Objectives" x="0" y="27.992502212524414" width="85.10282897949219" height="16.82821273803711">
+                          <text id="3100:9770" name="Objectives Title" x="3.9970052242279053" y="0" width="73.77798461914062" height="3" />
+                          <text id="3100:9771" name="Objectives Description" x="3.9970052242279053" y="3.6661670207977295" width="73.77798461914062" height="9" />
+                          <frame id="3100:9772" name="Frame 1984077959" x="3.9970052242279053" y="13.332334518432617" width="73.77798461914062" height="3.495879650115967">
+                            <instance id="3100:9773" name="Comp" x="0" y="0" width="16.05973243713379" height="3.495879650115967" />
+                          </frame>
+                        </frame>
+                      </frame>
+                      <frame id="3100:9774" name="Link Container" x="0" y="74.14105224609375" width="85.10282897949219" height="6">
+                        <text id="3100:9775" name="Link" x="3.9970052242279053" y="0" width="73.77798461914062" height="6" />
+                      </frame>
+                    </frame>
+                    <frame id="3100:9776" name="Divider" x="0" y="84.97077178955078" width="85.10282897949219" height="5.995502948760986">
+                      <line id="3100:9777" name="Line 22" x="3.9970052242279053" y="3.9970014095306396" width="77.10881805419922" height="0" />
+                    </frame>
+                    <frame id="3100:9778" name="Footer Tools" x="0" y="90.96627807617188" width="85.10282897949219" height="4">
+                      <instance id="3100:9779" name="Comp" x="3.9970014095306396" y="0" width="17.99700164794922" height="4" />
+                    </frame>
+                    <frame id="3100:9780" name="Empty Frame" x="0" y="94.96627807617188" width="85.10282897949219" height="4.829710006713867" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="3100:8474" name="Frame 1984078097" x="273.15234375" y="223" width="462.4767150878906" height="128.40357971191406">
+                <frame id="3100:8475" name="Frame 1984077881" x="0.0000152587890625" y="0" width="462.4766845703125" height="27.383459091186523">
+                  <instance id="3100:8476" name="Comp/policyName" x="0" y="7.741353988647461" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8477" name="Frame 1984077880" x="137.74432373046875" y="0" width="324.7323913574219" height="27.383459091186523">
+                    <instance id="3100:8478" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8479" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8480" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8481" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8482" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8483" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8484" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8485" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8486" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8487" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8488" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="27.383459091186523" />
+                    <instance id="3100:8489" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="27.383459091186523" />
+                  </frame>
+                </frame>
+                <frame id="3100:8490" name="Frame 1984077886" x="0.0000152587890625" y="27.383459091186523" width="462.4766845703125" height="19.642105102539062">
+                  <instance id="3100:8491" name="Comp/policyName" x="0" y="0" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8492" name="Frame 1984077880" x="137.74432373046875" y="0.013532638549804688" width="324.7323913574219" height="19.628572463989258">
+                    <instance id="3100:8493" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8494" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8495" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8496" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8497" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8498" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8499" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8500" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8501" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8502" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8503" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8504" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="19.628572463989258" />
+                  </frame>
+                </frame>
+                <frame id="3100:8505" name="Frame 1984077883" x="0.0000152587890625" y="47.02556610107422" width="462.4766845703125" height="19.642105102539062">
+                  <instance id="3100:8506" name="Comp/policyName" x="0" y="0" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8507" name="Frame 1984077880" x="137.74432373046875" y="0.013532638549804688" width="324.7323913574219" height="19.628572463989258">
+                    <instance id="3100:8508" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8509" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8510" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8511" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8512" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8513" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8514" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8515" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8516" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8517" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8518" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8519" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="19.628572463989258" />
+                  </frame>
+                </frame>
+                <frame id="3100:8520" name="Frame 1984077884" x="0.0000152587890625" y="66.66767120361328" width="462.4766845703125" height="19.642105102539062">
+                  <instance id="3100:8521" name="Comp/policyName" x="0" y="0" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8522" name="Frame 1984077880" x="137.74432373046875" y="0.013532638549804688" width="324.7323913574219" height="19.628572463989258">
+                    <instance id="3100:8523" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8524" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8525" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8526" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8527" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8528" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8529" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8530" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8531" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8532" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8533" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8534" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="19.628572463989258" />
+                  </frame>
+                </frame>
+                <frame id="3100:8535" name="Frame 1984077885" x="0.0000152587890625" y="86.30977630615234" width="462.4766845703125" height="19.642105102539062">
+                  <instance id="3100:8536" name="Comp/policyName" x="0" y="0" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8537" name="Frame 1984077880" x="137.74432373046875" y="0.013532638549804688" width="324.7323913574219" height="19.628572463989258">
+                    <instance id="3100:8538" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8539" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8540" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8541" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8542" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8543" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8544" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8545" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8546" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8547" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8548" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8549" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="19.628572463989258" />
+                  </frame>
+                </frame>
+                <frame id="3100:8550" name="Frame 1984077882" x="0.0000152587890625" y="105.9518814086914" width="462.4766845703125" height="19.642105102539062">
+                  <instance id="3100:8551" name="Comp/policyName" x="0" y="0" width="137.74432373046875" height="19.642105102539062" />
+                  <frame id="3100:8552" name="Frame 1984077880" x="137.74432373046875" y="0.013532638549804688" width="324.7323913574219" height="19.628572463989258">
+                    <instance id="3100:8553" name="Comp/ganttBlocks" x="0" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8554" name="Comp/ganttBlocks" x="28.237598419189453" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8555" name="Comp/ganttBlocks" x="56.475196838378906" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8556" name="Comp/ganttBlocks" x="84.71279907226562" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8557" name="Comp/ganttBlocks" x="112.95039367675781" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8558" name="Comp/ganttBlocks" x="141.18798828125" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8559" name="Comp/ganttBlocks" x="169.4255828857422" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8560" name="Comp/ganttBlocks" x="197.66317749023438" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8561" name="Comp/ganttBlocks" x="225.90077209472656" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8562" name="Comp/ganttBlocks" x="254.13836669921875" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8563" name="Comp/ganttBlocks" x="282.3759765625" y="0" width="28.237598419189453" height="19.628572463989258" />
+                    <instance id="3100:8564" name="Comp/ganttBlocks" x="310.61358642578125" y="0" width="14.118799209594727" height="19.628572463989258" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <instance id="3151:10191" name="Footer" x="0.0006103515625" y="417" width="1440" height="644" />
+    </frame>
+  </frame>
+  <instance id="3101:10034" name="Top nav" x="0" y="0" width="1440" height="101" />
+</frame>IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.
