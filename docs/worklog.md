@@ -2,6 +2,10 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-02 — Compute-costs outcome copy
+
+- Removed the literal square brackets around "30%" in the Outcome row of the compute-costs case study.
+
 ## 2026-11-01 — LinkedIn link
 
 - Footer "Find me on Linkedin" now points to Amy's profile (`site.linkedin` in `lib/site.ts`).

@@ -13,7 +13,7 @@ Shortcuts taken on purpose. Each entry: what, why, and what "fixed" looks like.
   wants exact wrapping.
 - **Possible copy typos kept verbatim.** The extraction flagged likely typos in the
   Figma copy (e.g. "trust from only policy-makers" with a doubled "only", "a weak
-  signal that need", "fell [30%]" with literal brackets, "followup" vs "follow-ups").
+  signal that need", "followup" vs "follow-ups").
   Full lists are at the end of `design/extracted/*.md`. Some are baked into
   images ("Euclidian graph", "feel like they are in control"). Fixed: Amy confirms
   each, we edit the page copy and re-export the affected images from Figma.
