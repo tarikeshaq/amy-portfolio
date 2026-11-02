@@ -4,7 +4,7 @@ export const site = {
   title: "Amy Zeng — AI product designer",
   description: "I design AI products that users trust and want to integrate into their workflows.",
   // TODO(TECH_DEBT): real values from Amy.
-  email: "amy@example.com",
+  email: "amyzeng1006@gmail.com",
   linkedin: "https://www.linkedin.com/",
   resume: "/resume.pdf",
 } as const;

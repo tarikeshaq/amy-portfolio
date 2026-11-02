@@ -2,6 +2,11 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Contact opens email
+
+- Real email address in `lib/site.ts`; the nav CONTACT link and footer "Email me"
+  both open a `mailto:` to it (CONTACT previously scrolled to the footer).
+
 ## 2026-11-01 — Agent workflow for Amy
 
 - `AGENTS.md` rewritten for an agent working with a designer: plain language, one

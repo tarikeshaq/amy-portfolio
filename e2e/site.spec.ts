@@ -1,4 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
+import { site } from "../lib/site";
 import { routes } from "./routes";
 
 async function collectErrors(page: Page) {
@@ -52,7 +53,13 @@ test("footer exposes contact links", async ({ page }) => {
   await page.goto("/");
   const footer = page.getByRole("contentinfo");
   await expect(footer.getByRole("link", { name: "Find me on Linkedin" })).toHaveAttribute("href", /linkedin\.com/);
-  await expect(footer.getByRole("link", { name: "Email me" })).toHaveAttribute("href", /^mailto:/);
+  await expect(footer.getByRole("link", { name: "Email me" })).toHaveAttribute("href", `mailto:${site.email}`);
+});
+
+test("nav CONTACT link opens an email to Amy", async ({ page }) => {
+  await page.goto("/");
+  const nav = page.getByRole("navigation", { name: "Main" });
+  await expect(nav.getByRole("link", { name: "CONTACT" })).toHaveAttribute("href", `mailto:${site.email}`);
 });
 
 test("home work cards and next-project cards link the case studies together", async ({ page }) => {
