@@ -85,7 +85,7 @@ export default function ComputeCostsCaseStudy() {
                 },
                 {
                   label: "Outcome",
-                  value: "Compute cost per task fell [30%], and we supported the partnership within budget",
+                  value: "Compute cost per task fell 30%, and we supported the partnership within budget",
                 },
               ]}
             />
