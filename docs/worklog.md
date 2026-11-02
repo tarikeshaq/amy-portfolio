@@ -2,6 +2,12 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Polish
+
+- Favicon (`app/icon.svg`), styled 404 page, project README.
+- E2E: case-study navigation loop, nav WORK anchor, 404 page (60 tests across desktop/tablet/mobile).
+- Committed the Next.js agent-rules block that `next dev` appends to AGENTS.md.
+
 ## 2026-11-01 — Case studies
 
 - Shared blocks in `components/case-study.tsx` take raw Figma measurements

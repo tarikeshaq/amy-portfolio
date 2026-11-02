@@ -72,3 +72,9 @@ test("nav WORK link returns to the selected-work section", async ({ page }) => {
   await expect(page).toHaveURL(/\/#work$/);
   await expect(page.getByRole("heading", { name: "Selected work" })).toBeInViewport();
 });
+
+test("unknown paths render the styled 404", async ({ page }) => {
+  const res = await page.goto("/does-not-exist/");
+  expect(res?.status()).toBe(404);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Page not found");
+});
