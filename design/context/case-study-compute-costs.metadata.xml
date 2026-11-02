@@ -1,0 +1,581 @@
+<frame id="3058:1633" name="V2 Case study: new feature" x="3681" y="2805" width="1440" height="10547">
+  <frame id="3111:10145" name="Frame 1984078158" x="0" y="0" width="1440" height="10547.3056640625">
+    <frame id="3107:10102" name="Frame 1984078152" x="0" y="0" width="1440" height="9150.3056640625">
+      <frame id="3151:10242" name="Frame 1984078162" x="0" y="0" width="1440" height="1679.799560546875">
+        <frame id="3109:10112" name="Frame 1984078157" x="0" y="0" width="1440" height="776">
+          <frame id="3101:10049" name="Hero" x="20" y="0" width="1416" height="776">
+            <frame id="3058:1634" name="Frame 1984077848" x="328" y="0" width="1108" height="722">
+              <frame id="3060:2150" name="Frame 1984078092" x="257" y="461" width="804" height="217.53089904785156">
+                <frame id="3060:2151" name="Frame 1984077881" x="0" y="0" width="804" height="46.912879943847656">
+                  <instance id="3060:2152" name="Comp/policyName" x="0" y="13.150409698486328" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2153" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="46.912879943847656">
+                    <instance id="3060:2154" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2155" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2156" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2157" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2158" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2159" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2160" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2161" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2162" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2163" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2164" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="46.912879943847656" />
+                    <instance id="3060:2165" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="46.912879943847656" />
+                  </frame>
+                </frame>
+                <frame id="3060:2226" name="Frame 1984077886" x="0" y="46.912879943847656" width="804" height="34.12360382080078">
+                  <instance id="3060:2227" name="Comp/policyName" x="0" y="0.3611335754394531" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2228" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="34.12360382080078">
+                    <instance id="3060:2229" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2230" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2231" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2232" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2233" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2234" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2235" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2236" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2237" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2238" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2239" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2240" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="34.12360382080078" />
+                  </frame>
+                </frame>
+                <frame id="3060:2181" name="Frame 1984077883" x="0" y="81.03648376464844" width="804" height="34.12360382080078">
+                  <instance id="3060:2182" name="Comp/policyName" x="0" y="0.3611335754394531" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2183" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="34.12360382080078">
+                    <instance id="3060:2184" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2185" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2186" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2187" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2188" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2189" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2190" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2191" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2192" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2193" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2194" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2195" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="34.12360382080078" />
+                  </frame>
+                </frame>
+                <frame id="3060:2196" name="Frame 1984077884" x="0" y="115.16008758544922" width="804" height="34.12360382080078">
+                  <instance id="3060:2197" name="Comp/policyName" x="0" y="0.3611335754394531" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2198" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="34.12360382080078">
+                    <instance id="3060:2199" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2200" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2201" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2202" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2203" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2204" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2205" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2206" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2207" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2208" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2209" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2210" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="34.12360382080078" />
+                  </frame>
+                </frame>
+                <frame id="3060:2211" name="Frame 1984077885" x="0" y="149.28369140625" width="804" height="34.12360382080078">
+                  <instance id="3060:2212" name="Comp/policyName" x="0" y="0.3611335754394531" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2213" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="34.12360382080078">
+                    <instance id="3060:2214" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2215" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2216" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2217" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2218" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2219" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2220" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2221" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2222" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2223" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2224" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2225" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="34.12360382080078" />
+                  </frame>
+                </frame>
+                <frame id="3060:2166" name="Frame 1984077882" x="0" y="183.40728759765625" width="804" height="34.12360382080078">
+                  <instance id="3060:2167" name="Comp/policyName" x="0" y="0.3611335754394531" width="239.46383666992188" height="33.76247024536133" />
+                  <frame id="3060:2168" name="Frame 1984077880" x="239.46383666992188" y="0" width="564.5361328125" height="34.12360382080078">
+                    <instance id="3060:2169" name="Comp/ganttBlocks" x="0" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2170" name="Comp/ganttBlocks" x="49.0900993347168" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2171" name="Comp/ganttBlocks" x="98.1801986694336" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2172" name="Comp/ganttBlocks" x="147.27029418945312" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2173" name="Comp/ganttBlocks" x="196.3603973388672" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2174" name="Comp/ganttBlocks" x="245.45050048828125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2175" name="Comp/ganttBlocks" x="294.54058837890625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2176" name="Comp/ganttBlocks" x="343.63067626953125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2177" name="Comp/ganttBlocks" x="392.72076416015625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2178" name="Comp/ganttBlocks" x="441.81085205078125" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2179" name="Comp/ganttBlocks" x="490.90093994140625" y="0" width="49.0900993347168" height="34.12360382080078" />
+                    <instance id="3060:2180" name="Comp/ganttBlocks" x="539.9910278320312" y="0" width="24.5450496673584" height="34.12360382080078" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <text id="3058:1654" name="PolicyCopilot is a tool used by policy-makers to diagnose policy problems. The tool included an AI chat that helped users retrieve evidence from a curated knowledge base." x="328" y="726" width="933" height="50" />
+            <frame id="3060:3339" name="Frame 1984077945" x="388" y="36" width="873" height="376.89849853515625">
+              <frame id="3060:3357" name="Frame 1984077942" x="0" y="0" width="873" height="22.029850006103516">
+                <text id="3060:3358" name="Medium relevancy" x="21.49925422668457" y="13.029850959777832" width="63" height="9" />
+                <text id="3060:3359" name="High relevancy" x="822" y="13.029850959777832" width="51" height="9" />
+              </frame>
+              <frame id="3060:3340" name="Frame 1984077944" x="0" y="22.029850006103516" width="873" height="354.8686828613281">
+                <text id="3060:3341" name="Approved date" x="1.727527063621892e-7" y="202.93434143066406" width="9.000000608168193" height="51.00000010732401" />
+                <frame id="3060:3342" name="Frame 1984077940" x="22.02985191345215" y="0" width="850.9701538085938" height="354.8686828613281">
+                  <instance id="3060:3343" name="Comp/dateLine" x="0" y="0" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3344" name="Comp/dateLine" x="0" y="50.69552230834961" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3345" name="Comp/dateLine" x="0" y="101.39104461669922" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3346" name="Comp/dateLine" x="0" y="152.08656311035156" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3347" name="Comp/dateLine" x="0" y="202.78208923339844" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3348" name="Comp/dateLine" x="0" y="253.47763061523438" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3349" name="Comp/dateLine" x="0" y="304.17315673828125" width="851.500732421875" height="50.695526123046875" />
+                  <instance id="3060:3350" name="L" x="642.37109375" y="63.693359375" width="83.39104461669922" height="83.39104461669922" />
+                  <instance id="3060:3351" name="S" x="578.5234375" y="83.890625" width="41.69552230834961" height="41.69552230834961" />
+                  <instance id="3060:3352" name="XS" x="152.44921875" y="147.083984375" width="28.665672302246094" height="28.665672302246094" />
+                  <instance id="3060:3353" name="L" x="287.30859375" y="249.369140625" width="83.39104461669922" height="83.39104461669922" />
+                  <instance id="3060:3354" name="XS" x="166.78146362304688" y="278.0353698730469" width="28.665672302246094" height="28.665672302246094" />
+                  <instance id="3060:3355" name="XXS" x="486.6640625" y="242.203125" width="20.847761154174805" height="20.847761154174805" />
+                  <instance id="3060:3356" name="XS" x="605.890625" y="141.87109375" width="28.665672302246094" height="28.665672302246094" />
+                  <frame id="3151:10146" name="Card" x="674.96875" y="155.970703125" width="155.62164306640625" height="178.3891143798828">
+                    <frame id="3151:10147" name="Header" x="0" y="0" width="155.62164306640625" height="8.831755638122559">
+                      <frame id="3151:10148" name="Frame" x="0" y="0" width="155.62164306640625" height="8.831755638122559" />
+                    </frame>
+                    <frame id="3151:10149" name="Content" x="0" y="8.83177661895752" width="155.62164306640625" height="142.7620391845703">
+                      <frame id="3151:10150" name="Primary Info" x="0" y="0" width="155.62164306640625" height="36.181732177734375">
+                        <frame id="3151:10151" name="Details Container" x="7.309039115905762" y="0" width="129.1263885498047" height="36.181732177734375">
+                          <frame id="3151:10152" name="Status Info" x="0" y="0" width="129.1263885498047" height="6.0908660888671875">
+                            <instance id="3151:10153" name="Comp/status" x="0" y="0" width="20.309040069580078" height="6.0908660888671875" />
+                            <text id="3151:10154" name="Active Period" x="21.52721405029297" y="0.5454330444335938" width="107.59917449951172" height="5" />
+                          </frame>
+                          <text id="3151:10155" name="Description" x="0" y="12.181732177734375" width="129.1263885498047" height="24" />
+                        </frame>
+                        <instance id="3151:10156" name="Icon" x="139.78538513183594" y="0" width="8.527214050292969" height="8.527214050292969" />
+                      </frame>
+                      <frame id="3151:10157" name="Section" x="0" y="45.92711639404297" width="155.62164306640625" height="77.08953094482422">
+                        <frame id="3151:10158" name="Frame 1984077960" x="0" y="0" width="155.62164306640625" height="43.399906158447266">
+                          <frame id="3151:10159" name="Objectives" x="0" y="0" width="155.62164306640625" height="11.218173027038574">
+                            <text id="3151:10160" name="Objectives Title" x="7.309046745300293" y="0" width="134.91268920898438" height="5" />
+                            <text id="3151:10161" name="Objectives Description" x="7.309046745300293" y="6.218173027038574" width="134.91268920898438" height="5" />
+                          </frame>
+                          <frame id="3151:10162" name="Objectives" x="0" y="16.090866088867188" width="155.62164306640625" height="11.218173027038574">
+                            <text id="3151:10163" name="Objectives Title" x="7.309046745300293" y="0" width="134.91268920898438" height="5" />
+                            <text id="3151:10164" name="Objectives Description" x="7.309046745300293" y="6.218173027038574" width="134.91268920898438" height="5" />
+                          </frame>
+                          <frame id="3151:10165" name="Objectives" x="0" y="32.181732177734375" width="155.62164306640625" height="11.218173027038574">
+                            <text id="3151:10166" name="Objectives Title" x="7.309046745300293" y="0" width="134.91268920898438" height="5" />
+                            <text id="3151:10167" name="Objectives Description" x="7.309046745300293" y="6.218173027038574" width="134.91268920898438" height="5" />
+                          </frame>
+                        </frame>
+                        <frame id="3151:10168" name="Objectives" x="0" y="48.27259826660156" width="155.62164306640625" height="28.81693458557129">
+                          <text id="3151:10169" name="Objectives Title" x="7.309046745300293" y="0" width="134.91268920898438" height="5" />
+                          <text id="3151:10170" name="Objectives Description" x="7.309046745300293" y="6.218173027038574" width="134.91268920898438" height="15" />
+                          <frame id="3151:10171" name="Frame 1984077959" x="7.309046745300293" y="22.43634796142578" width="134.91268920898438" height="6.380588054656982">
+                            <instance id="3151:10172" name="Comp" x="0" y="0" width="28.40971565246582" height="6.380588054656982" />
+                          </frame>
+                        </frame>
+                      </frame>
+                      <frame id="3151:10173" name="Link Container" x="0" y="132.76202392578125" width="155.62164306640625" height="10">
+                        <text id="3151:10174" name="Link" x="7.309046745300293" y="0" width="134.91268920898438" height="10" />
+                      </frame>
+                    </frame>
+                    <frame id="3151:10175" name="Divider" x="0" y="151.5937957763672" width="155.62164306640625" height="10.9635591506958">
+                      <line id="3151:10176" name="Line 22" x="7.309046745300293" y="7.309039115905762" width="141.00355529785156" height="0" />
+                    </frame>
+                    <frame id="3151:10177" name="Footer Tools" x="0" y="162.55735778808594" width="155.62164306640625" height="7">
+                      <instance id="3151:10178" name="Comp" x="7.309039115905762" y="0" width="32.30904006958008" height="7" />
+                    </frame>
+                    <frame id="3151:10179" name="Empty Frame" x="0" y="169.55735778808594" width="155.62164306640625" height="8.831755638122559" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3058:1635" name="Frame 1984077874" x="20" y="51" width="715" height="577">
+              <text id="3058:1636" name="Cutting compute costs by 30% by redesigning AI responses around common tasks" x="0" y="0" width="715" height="485" />
+              <frame id="3058:1637" name="Frame 1984077850" x="0" y="501" width="299" height="76">
+                <text id="3058:1639" name="AI Product design" x="0" y="0" width="88" height="15" />
+                <text id="3058:1641" name="Role: lead product designer" x="0" y="23" width="133" height="15" />
+                <text id="3058:1640" name="Team: product manager, data scientist, 2 engineers, policy consultant" x="0" y="46" width="299" height="30" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3109:10110" name="Frame 1984078156" x="0" y="944" width="1440" height="735.799560546875">
+          <frame id="3109:10109" name="Frame 1984078155" x="0" y="0" width="1440" height="735.799560546875">
+            <frame id="3058:1642" name="Frame 1984077878" x="0" y="0" width="1440" height="210">
+              <frame id="3107:10106" name="Frame 1984078153" x="418.5" y="0" width="603" height="210">
+                <text id="3058:1643" name="Summary" x="0" y="0" width="163" height="48" />
+                <frame id="3058:1644" name="Frame 1984077877" x="0" y="72" width="603" height="138">
+                  <frame id="3058:1645" name="Frame 1984077875" x="0" y="0" width="603" height="30">
+                    <text id="3058:1646" name="Context" x="0" y="0" width="120" height="30" />
+                    <text id="3058:1647" name="A new partnership would bring 100+ users we couldn&#39;t afford to support at current compute costs" x="132" y="7.5" width="471" height="15" />
+                  </frame>
+                  <frame id="3058:1648" name="Frame 1984077876" x="0" y="54" width="566" height="30">
+                    <text id="3058:1649" name="Approach" x="0" y="0" width="120" height="30" />
+                    <text id="3058:1650" name="Users were expensive because answers didn&#39;t fit their task, so they kept asking follow-ups" x="132" y="7.5" width="434" height="15" />
+                  </frame>
+                  <frame id="3058:1651" name="Frame 1984077878" x="0" y="108" width="530" height="30">
+                    <text id="3058:1652" name="Outcome" x="0" y="0" width="120" height="30" />
+                    <text id="3058:1653" name="Compute cost per task fell [30%], and we supported the partnership within budget" x="132" y="7.5" width="398" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3107:10107" name="Frame 1984078154" x="0" y="258" width="1440" height="477.7995300292969">
+              <frame id="3058:1679" name="Frame 1984077999" x="328.0625915527344" y="0" width="783.8748168945312" height="477.7995300292969">
+                <rounded-rectangle id="3058:1680" name="F3 gantt demo 1" x="10.863636016845703" y="10.863636016845703" width="762.1475219726562" height="456.072265625" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3151:10239" name="Frame 1984078159" x="0" y="2015.799560546875" width="1440" height="2489.205810546875">
+        <frame id="3101:10052" name="Frame 1984078119" x="0" y="0" width="1135" height="133">
+          <text id="3058:1656" name="A partnership bringing 100+ new users would have pushed compute costs over budget" x="60" y="0" width="1015" height="96" />
+          <text id="3058:1655" name="I worked with our engineering team to lower costs without making the product worse" x="60" y="108" width="1015" height="25" />
+        </frame>
+        <frame id="3101:10053" name="Frame 1984078120" x="0" y="301" width="1158" height="206">
+          <frame id="3192:12281" name="Frame 1984078189" x="60" y="0" width="1015" height="144">
+            <text id="3058:1672" name="Making each answer less detailed was cheaper but would have backfired because" x="0" y="0" width="1015" height="96" />
+            <frame id="3192:12282" name="Frame 1984078190" x="0" y="96" width="620" height="48">
+              <text id="3192:12280" name="thinner answers drive more follow-ups" x="0" y="0" width="620" height="48" />
+            </frame>
+          </frame>
+          <text id="3058:1671" name="If answers got thinner, we&#39;d lose the savings in volume while degrading the experience. Before cutting anything, I wanted to understand why users sent so many messages." x="60" y="156" width="933" height="50" />
+        </frame>
+        <frame id="3103:10089" name="Frame 1984078146" x="0" y="675" width="1135" height="780.7999877929688">
+          <frame id="3101:10054" name="Frame 1984078121" x="60" y="0" width="933" height="158">
+            <text id="3058:1657" name="2/3 of messages came from 3 tasks where users had to piece text answers together themselves" x="0" y="0" width="933" height="96" />
+            <text id="3058:1663" name="With our data scientist, I analyzed 90 chat sessions and tagged each by what the user was trying to accomplish." x="0" y="108" width="933" height="50" />
+          </frame>
+          <frame id="3101:10055" name="Group 8" x="60" y="206" width="1015" height="574.7999877929688">
+            <frame id="3058:1786" name="Frame 1984078009" x="259" y="206" width="380" height="253.79998779296875">
+              <frame id="3058:1787" name="Frame 1984078006" x="24" y="20" width="332" height="213.79998779296875">
+                <frame id="3058:1788" name="Frame 1984078003" x="0" y="0" width="241" height="65">
+                  <text id="3060:2049" name="Task 1" x="0" y="0" width="241" height="12" />
+                  <text id="3058:1789" name="Mapping stakeholders" x="0" y="16" width="241" height="30" />
+                  <text id="3058:1790" name="Who is involved and how they connect" x="0" y="50" width="241" height="15" />
+                </frame>
+                <frame id="3058:1791" name="Frame 334" x="0" y="125" width="332" height="88.79999542236328">
+                  <frame id="3058:1792" name="Frame 70" x="69.39999389648438" y="0" width="262.6000061035156" height="26.514284133911133">
+                    <text id="3058:1793" name="Who are the key funders in this area who I may be able to get funding from?" x="10.799999237060547" y="9.257142066955566" width="241" height="8" />
+                  </frame>
+                  <frame id="3058:1794" name="Frame 71" x="9.399993896484375" y="31.142854690551758" width="322.6000061035156" height="26.514284133911133">
+                    <text id="3058:1795" name="Who are the stakeholders whose goals I need to keep in mind when designing this new policy?" x="10.799999237060547" y="9.257142066955566" width="301" height="8" />
+                  </frame>
+                  <frame id="3058:1796" name="Frame 72" x="160.39999389648438" y="62.285709381103516" width="171.60000610351562" height="26.514284133911133">
+                    <text id="3058:1797" name="How do I get in touch with these stakeholders?" x="10.799999237060547" y="9.257142066955566" width="150" height="8" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3058:1798" name="Frame 1984078011" x="695" y="440" width="380" height="253.79998779296875">
+              <frame id="3058:1799" name="Frame 1984078008" x="24" y="20" width="332" height="213.79998779296875">
+                <frame id="3058:1800" name="Frame 1984078004" x="0" y="0" width="255" height="65">
+                  <text id="3060:2051" name="Task 3" x="0" y="0" width="255" height="12" />
+                  <text id="3058:1801" name="Reviewing past policies" x="0" y="16" width="255" height="30" />
+                  <text id="3058:1802" name="What has been tried and when" x="0" y="50" width="255" height="15" />
+                </frame>
+                <frame id="3058:1803" name="Frame 1984077997" x="0" y="125" width="332" height="88.79999542236328">
+                  <frame id="3058:1804" name="Frame 70" x="154.39999389648438" y="0" width="177.60000610351562" height="26.514284133911133">
+                    <text id="3058:1805" name="What was done in the past to address this issue?" x="10.799999237060547" y="9.257142066955566" width="156" height="8" />
+                  </frame>
+                  <frame id="3058:1806" name="Frame 71" x="163.39999389648438" y="31.142854690551758" width="168.60000610351562" height="26.514284133911133">
+                    <text id="3058:1807" name="What can we learn from these past initiatives?" x="10.799999237060547" y="9.257142066955566" width="147" height="8" />
+                  </frame>
+                  <frame id="3058:1808" name="Frame 72" x="76.39999389648438" y="62.285709381103516" width="255.60000610351562" height="26.514284133911133">
+                    <text id="3058:1809" name="What was missing from these past initiatives that requires new solutions?" x="10.799999237060547" y="9.257142066955566" width="234" height="8" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3058:1810" name="Frame 1984078010" x="60" y="527" width="380" height="253.79998779296875">
+              <frame id="3058:1811" name="Frame 1984078007" x="24" y="20" width="332" height="213.79998779296875">
+                <frame id="3058:1812" name="Frame 1984078005" x="0" y="0" width="341" height="65">
+                  <text id="3060:2050" name="Task 2" x="0" y="0" width="341" height="12" />
+                  <text id="3058:1813" name="Understanding current policies" x="0" y="16" width="341" height="30" />
+                  <text id="3058:1814" name="What is active now and how it overlaps" x="0" y="50" width="341" height="15" />
+                </frame>
+                <frame id="3058:1815" name="Frame 1984077996" x="0" y="125" width="332" height="88.79999542236328">
+                  <frame id="3058:1816" name="Frame 70" x="217.39999389648438" y="0" width="114.5999984741211" height="26.514284133911133">
+                    <text id="3058:1817" name="What current solutions exist?" x="10.799999237060547" y="9.257142066955566" width="93" height="8" />
+                  </frame>
+                  <frame id="3058:1818" name="Frame 71" x="95.39999389648438" y="31.142854690551758" width="236.60000610351562" height="26.514284133911133">
+                    <text id="3058:1819" name="How much funding was received by projects in this space recently?" x="10.799999237060547" y="9.257142066955566" width="215" height="8" />
+                  </frame>
+                  <frame id="3058:1820" name="Frame 72" x="96.39999389648438" y="62.285709381103516" width="235.60000610351562" height="26.514284133911133">
+                    <text id="3058:1821" name="What are the current projects missing that requires a new solution?" x="10.799991607666016" y="9.257142066955566" width="214" height="8" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3103:10090" name="Frame 1984078147" x="0" y="1623.800048828125" width="1228" height="865.4058837890625">
+          <frame id="3192:12278" name="Frame 1984078187" x="60" y="0" width="464" height="384">
+            <text id="3058:1669" name="In 12 user interviews I led, users described asking follow-ups to retrieve dates, reformat lists, or find which policies overlapped" x="0" y="0" width="464" height="240" />
+            <frame id="3192:12279" name="Frame 1984078188" x="0" y="240" width="464" height="144">
+              <text id="3192:12277" name="The answers had the information but not the shape they needed" x="0" y="0" width="464" height="144" />
+            </frame>
+          </frame>
+          <frame id="3060:2053" name="Frame 1984078106" x="572" y="0" width="596" height="865.4058837890625">
+            <text id="3060:2052" name="Sample: Getting the data to the correct “shape” took 4 turns" x="0" y="0" width="288" height="15" />
+            <frame id="3058:1683" name="Frame 1984078001" x="0" y="19" width="596" height="846.4058837890625">
+              <frame id="3058:1684" name="Frame 387" x="18.16096305847168" y="13.620719909667969" width="559.6781005859375" height="819.1644287109375">
+                <frame id="3058:1685" name="Frame 332" x="0" y="0" width="559.6781005859375" height="29.04817008972168">
+                  <frame id="3058:1686" name="Frame 70" x="285.68646240234375" y="0" width="273.99163818359375" height="29.04817008972168">
+                    <text id="3058:1687" name="Show me policy timeline for youth unemployment in Kenya" x="11.694757461547852" y="10.02408504486084" width="250.6021270751953" height="9" />
+                  </frame>
+                </frame>
+                <instance id="3058:1688" name="Comp" x="0" y="35.730892181396484" width="383.4215087890625" height="263.04815673828125" />
+                <frame id="3058:1689" name="Frame 334" x="0" y="305.4617614746094" width="559.6781005859375" height="29.04817008972168">
+                  <frame id="3058:1690" name="Frame 70" x="285.68646240234375" y="0" width="273.99163818359375" height="29.04817008972168">
+                    <text id="3058:1691" name="Can you list them in order by year?" x="11.694757461547852" y="10.02408504486084" width="250.6021270751953" height="9" />
+                  </frame>
+                </frame>
+                <instance id="3058:1692" name="Comp" x="0" y="341.1926574707031" width="383.4215087890625" height="110.04817199707031" />
+                <frame id="3058:1693" name="Frame 335" x="0" y="457.9235534667969" width="559.6781005859375" height="29.04817008972168">
+                  <frame id="3058:1694" name="Frame 70" x="285.68646240234375" y="0" width="273.99163818359375" height="29.04817008972168">
+                    <text id="3058:1695" name="Which of these were running at the same time from 2023 and 2024?" x="11.694757461547852" y="10.02408504486084" width="250.6021270751953" height="9" />
+                  </frame>
+                </frame>
+                <instance id="3058:1696" name="Comp" x="0" y="493.6544494628906" width="383.4215087890625" height="191.0481719970703" />
+                <frame id="3058:1697" name="Frame 336" x="0" y="691.3853759765625" width="559.6781005859375" height="29.04817008972168">
+                  <frame id="3058:1698" name="Frame 70" x="285.68646240234375" y="0" width="273.99163818359375" height="29.04817008972168">
+                    <text id="3058:1699" name="Which ones are still active as of 2026?" x="11.694757461547852" y="10.02408504486084" width="250.6021270751953" height="9" />
+                  </frame>
+                </frame>
+                <instance id="3058:1700" name="Comp" x="0" y="727.1162719726562" width="383.4215087890625" height="92.04817199707031" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3151:10240" name="Frame 1984078160" x="0" y="4841.00537109375" width="1440" height="1140">
+        <frame id="3101:10057" name="Frame 1984078122" x="0" y="0" width="1055" height="220">
+          <text id="3058:1658" name="Visual answers cost more per message but less per task because one visual replaced on average 2-4 follow-ups" x="60" y="0" width="935" height="96" />
+          <text id="3058:1664" name="Measured per message, visual answers looked like the wrong direction. Measured per completed task, they were cheaper." x="60" y="108" width="935" height="50" />
+          <text id="3101:10056" name="Users also told us visuals were easier to skim and made patterns visible faster. Some said visuals were a reason to choose PolicyCopilot over a general-purpose AI tool." x="60" y="170" width="935" height="50" />
+        </frame>
+        <frame id="3103:10092" name="Frame 1984078148" x="0" y="388" width="1329" height="752">
+          <frame id="3101:10058" name="Frame 1984078123" x="60" y="0" width="933" height="133">
+            <text id="3058:1659" name="Showing high-value visuals by default and offering costly ones on request kept spending in check" x="0" y="0" width="933" height="96" />
+            <text id="3058:1666" name="With an engineer, I plotted each candidate content type by user value and expected compute cost:" x="0" y="108" width="933" height="25" />
+          </frame>
+          <frame id="3103:10091" name="Group 14" x="60" y="181" width="1209" height="571">
+            <vector id="3058:1701" name="Line 27" x="175" y="472" width="973" height="0" />
+            <vector id="3058:1702" name="Line 28" x="649" y="194" width="0.000024303531972691417" height="556" />
+            <text id="3058:1703" name="High cost" x="374" y="181" width="254" height="15" />
+            <text id="3058:1704" name="High user value" x="1039" y="436" width="230" height="15" />
+            <text id="3058:1705" name="Low cost" x="385" y="737" width="243" height="15" />
+            <text id="3058:1706" name="Low user value" x="60" y="439" width="254" height="15" />
+            <frame id="3058:1709" name="Frame 1984078015" x="314" y="310" width="257" height="103">
+              <rounded-rectangle id="3058:1710" name="IMG_6252 1" x="12" y="8" width="112" height="87" />
+              <frame id="3058:1711" name="Frame 1984078013" x="128" y="8" width="117" height="27">
+                <text id="3058:1712" name="Venn diagram" x="0" y="0" width="117" height="15" />
+                <text id="3058:1713" name="Best for: stakeholders" x="0" y="15" width="117" height="12" />
+              </frame>
+            </frame>
+            <frame id="3058:1714" name="Frame 1984078014" x="449" y="624" width="297" height="76">
+              <rounded-rectangle id="3058:1715" name="81189015068__F35DC91F-8D88-4F22-93FA-4E9805A64A8E 2" x="12" y="8" width="152" height="60" />
+              <frame id="3058:1716" name="Frame 1984078012" x="168" y="8" width="117" height="27">
+                <text id="3058:1717" name="Flowchart" x="0" y="0" width="117" height="15" />
+                <text id="3058:1718" name="Best for: stakeholders" x="0" y="15" width="117" height="12" />
+              </frame>
+            </frame>
+            <frame id="3058:1719" name="Frame 1984078015" x="843" y="219" width="316" height="76">
+              <rounded-rectangle id="3058:1720" name="IMG_6250 2" x="12" y="8" width="171" height="60" />
+              <frame id="3058:1721" name="Frame 1984078013" x="187" y="8" width="117" height="27">
+                <text id="3058:1722" name="Euclidian graph" x="0" y="0" width="117" height="15" />
+                <text id="3058:1723" name="Best for: stakeholders" x="0" y="15" width="117" height="12" />
+              </frame>
+            </frame>
+            <frame id="3058:1724" name="Frame 1984078015" x="832" y="456" width="284" height="109">
+              <rounded-rectangle id="3058:1725" name="IMG_6253 1" x="12" y="8" width="139" height="93" />
+              <frame id="3058:1726" name="Frame 1984078013" x="155" y="8" width="117" height="39">
+                <text id="3058:1727" name="Bubble chart" x="0" y="0" width="117" height="15" />
+                <text id="3058:1728" name="Best for: current and past policies" x="0" y="15" width="117" height="24" />
+              </frame>
+            </frame>
+            <frame id="3058:1729" name="Frame 1984078016" x="302" y="428" width="299" height="94">
+              <rounded-rectangle id="3058:1730" name="IMG_6250 1" x="12" y="8" width="154" height="78" />
+              <frame id="3058:1731" name="Frame 1984078013" x="170" y="8" width="117" height="39">
+                <text id="3058:1732" name="Scatter plot" x="0" y="0" width="117" height="15" />
+                <text id="3058:1733" name="Best for: current and past policies" x="0" y="15" width="117" height="24" />
+              </frame>
+            </frame>
+            <frame id="3058:1774" name="Frame 1984078017" x="844" y="576" width="282" height="96">
+              <rounded-rectangle id="3058:1775" name="IMG_6262 1" x="12" y="8" width="137" height="80" />
+              <frame id="3058:1776" name="Frame 1984078012" x="153" y="8" width="117" height="39">
+                <text id="3058:1777" name="Gantt chart" x="0" y="0" width="117" height="15" />
+                <text id="3058:1778" name="Best for: current and past policies" x="0" y="15" width="117" height="24" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="3188:12275" name="Frame 1984078142" x="925" y="708.994140625" width="249" height="35">
+            <text id="3188:12276" name="These visuals were selected as the ones to build" x="8" y="10" width="233" height="15" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3103:10093" name="Frame 1984078149" x="0" y="6317.00537109375" width="1440" height="1824.300048828125">
+        <text id="3058:1660" name="Each visual answered questions users previously needed several follow-ups to answer" x="60" y="0" width="1197" height="96" />
+        <frame id="3101:10062" name="Frame 1984078127" x="60" y="192" width="1197" height="699.73583984375">
+          <text id="3060:2078" name="“Show me policy timeline for youth unemployment in Kenya”" x="0" y="0" width="664" height="30" />
+          <frame id="3101:10061" name="Frame 1984078126" x="0" y="62" width="1197" height="637.73583984375">
+            <frame id="3101:10059" name="Frame 1984078124" x="0" y="0" width="535" height="637.73583984375">
+              <frame id="3060:2058" name="Frame 1984078107" x="0" y="0" width="535" height="44">
+                <text id="3060:2057" name="Before" x="0" y="0" width="535" height="15" />
+                <text id="3060:2055" name="Text lists forced users to rebuild the timeline in their heads" x="0" y="19" width="535" height="25" />
+              </frame>
+              <frame id="3058:1734" name="Frame 1984078001" x="0" y="56" width="407" height="581.73583984375">
+                <frame id="3058:1735" name="Frame 387" x="12.401865005493164" y="9.301398277282715" width="382.1962585449219" height="563.133056640625">
+                  <frame id="3058:1736" name="Frame 332" x="0" y="0" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1737" name="Frame 70" x="228.223876953125" y="0" width="153.97238159179688" height="19.69061279296875">
+                      <text id="3058:1738" name="Show me policy timeline for youth unemployment in Kenya" x="7.986189842224121" y="6.845305919647217" width="138" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1739" name="Comp" x="0" y="24.254150390625" width="261.8329162597656" height="175.69061279296875" />
+                  <frame id="3058:1740" name="Frame 334" x="0" y="204.50830078125" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1741" name="Frame 70" x="284.223876953125" y="0" width="97.97238159179688" height="19.69061279296875">
+                      <text id="3058:1742" name="Can you list them in order by year?" x="7.986189842224121" y="6.845305919647217" width="82" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1743" name="Comp" x="0" y="228.762451171875" width="261.8329162597656" height="73.69061279296875" />
+                  <frame id="3058:1744" name="Frame 335" x="0" y="307.0166015625" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1745" name="Frame 70" x="205.223876953125" y="0" width="176.97238159179688" height="19.69061279296875">
+                      <text id="3058:1746" name="Which of these were running at the same time from 2023 and 2024?" x="7.986189842224121" y="6.845305919647217" width="161" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1747" name="Comp" x="0" y="331.270751953125" width="261.8329162597656" height="127.69061279296875" />
+                  <frame id="3058:1748" name="Frame 336" x="0" y="463.52490234375" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1749" name="Frame 70" x="275.223876953125" y="0" width="106.97238159179688" height="19.69061279296875">
+                      <text id="3058:1750" name="Which ones are still active as of 2026?" x="7.986189842224121" y="6.845305919647217" width="91" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1751" name="Comp" x="0" y="487.779052734375" width="261.8329162597656" height="61.69061279296875" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3101:10060" name="Frame 1984078125" x="620" y="0" width="577" height="408">
+              <frame id="3060:2059" name="Frame 1984078108" x="0" y="0" width="549" height="44">
+                <text id="3060:2060" name="After" x="0" y="0" width="549" height="15" />
+                <text id="3060:2061" name="The Gantt chart makes order and overlap visible immediately" x="0" y="19" width="549" height="25" />
+              </frame>
+              <frame id="3058:1677" name="Frame 1984077999" x="0" y="56" width="577" height="352">
+                <rounded-rectangle id="3058:1678" name="F3 gantt demo 1" x="8" y="8" width="561" height="336" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3101:10066" name="Frame 1984078131" x="60" y="987.73583984375" width="1137" height="836.5641479492188">
+          <text id="3060:2077" name="“What policies have impacted conservation in West Africa from 2016 onwards?”" x="0" y="0" width="860" height="30" />
+          <frame id="3101:10065" name="Frame 1984078130" x="0" y="62" width="1137" height="774.5641479492188">
+            <frame id="3101:10063" name="Frame 1984078128" x="0" y="0" width="535" height="774.5641479492188">
+              <frame id="3060:2062" name="Frame 1984078109" x="0" y="0" width="535" height="69">
+                <text id="3060:2063" name="Before" x="0" y="0" width="535" height="15" />
+                <text id="3060:2064" name="Text responses did not reveal patterns and required a new followup question to obtain new information" x="0" y="19" width="535" height="50" />
+              </frame>
+              <frame id="3058:1752" name="Frame 1984078022" x="0" y="81" width="407" height="693.5641479492188">
+                <frame id="3058:1753" name="Frame 387" x="12.401865005493164" y="9.301398277282715" width="382.1962585449219" height="674.9613647460938">
+                  <frame id="3058:1754" name="Frame 332" x="0" y="0" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1755" name="Frame 70" x="182.223876953125" y="0" width="199.97238159179688" height="19.69061279296875">
+                      <text id="3058:1756" name="What policies have impacted conservation in West Africa from 2016 onwards?" x="7.986189842224121" y="6.845305919647217" width="184" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1757" name="Comp" x="0" y="24.254150390625" width="261.8330078125" height="199.69061279296875" />
+                  <frame id="3058:1758" name="Frame 334" x="0" y="228.50830078125" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1759" name="Frame 70" x="229.223876953125" y="0" width="152.97238159179688" height="19.69061279296875">
+                      <text id="3058:1760" name="How much funding was obtained by each of the initiatives" x="7.986189842224121" y="6.845305919647217" width="137" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1761" name="Comp" x="0" y="252.762451171875" width="261.8330078125" height="235.69061279296875" />
+                  <frame id="3058:1762" name="Frame 335" x="0" y="493.0166015625" width="382.1962585449219" height="19.69061279296875">
+                    <frame id="3058:1763" name="Frame 70" x="258.223876953125" y="0" width="123.97238159179688" height="19.69061279296875">
+                      <text id="3058:1764" name="Are there any patterns with what gets funded" x="7.986189842224121" y="6.845305919647217" width="108" height="6" />
+                    </frame>
+                  </frame>
+                  <instance id="3058:1765" name="Comp" x="0" y="517.270751953125" width="261.8330078125" height="157.69061279296875" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="3101:10064" name="Frame 1984078129" x="560" y="0" width="577" height="443">
+              <frame id="3060:2065" name="Frame 1984078110" x="0" y="0" width="549" height="69">
+                <text id="3060:2066" name="After" x="0" y="0" width="549" height="15" />
+                <text id="3060:2067" name="Sizing bubbles by funding received showed which projects attract funders without users comparing figures" x="0" y="19" width="549" height="50" />
+              </frame>
+              <frame id="3058:1673" name="Frame 1984078000" x="0" y="81" width="577" height="362">
+                <rounded-rectangle id="3058:1674" name="F3 timeline demo V2 1" x="8" y="8" width="561" height="346" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3151:10241" name="Frame 1984078161" x="0" y="8477.3056640625" width="1440" height="673">
+        <frame id="3101:10067" name="Frame 1984078132" x="0" y="0" width="1440" height="322">
+          <text id="3058:1661" name="Cost per task dropped 30% while task completion held steady, so we could onboard all 100+ partnership users" x="60" y="0" width="922" height="96" />
+          <frame id="3058:2033" name="Frame 1984078090" x="60" y="144" width="631" height="178">
+            <text id="3058:2034" name="Stats" x="36" y="28" width="52" height="30" />
+            <frame id="3058:2035" name="Frame 1984078089" x="36" y="78" width="559" height="72">
+              <frame id="3058:2036" name="Frame 1984078089" x="0" y="0" width="159" height="57">
+                <frame id="3058:2037" name="Frame 1984078094" x="0" y="0" width="70" height="38">
+                  <text id="3058:2038" name="-30%" x="8" y="4" width="54" height="30" />
+                </frame>
+                <text id="3058:2039" name="change in compute cost per task" x="0" y="42" width="159" height="15" />
+              </frame>
+              <frame id="3058:2040" name="Frame 1984078087" x="239" y="0" width="140" height="57">
+                <frame id="3058:2041" name="Frame 1984078092" x="0" y="0" width="68" height="38">
+                  <text id="3058:2042" name="6 → 2" x="8" y="4" width="52" height="30" />
+                </frame>
+                <text id="3058:2043" name="average messages per task" x="0" y="42" width="140" height="15" />
+              </frame>
+              <frame id="3058:2044" name="Frame 1984078088" x="459" y="0" width="100" height="72">
+                <frame id="3058:2045" name="Frame 1984078094" x="0" y="0" width="75" height="38">
+                  <text id="3058:2046" name="+45%" x="8" y="4" width="59" height="30" />
+                </frame>
+                <text id="3058:2047" name="cost per message (accepted trade-off)" x="0" y="42" width="100" height="30" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3101:10068" name="Frame 1984078133" x="0" y="490" width="1440" height="183">
+          <text id="3058:1662" name="The cheapest AI answer is the one that finishes the task in the fewest turns" x="60" y="0" width="922" height="96" />
+          <text id="3058:1676" name="If I did this again, I&#39;d measure task success from the beginning rather than relying on message count, since fewer messages can also mean users gave up. Next, I&#39;d explore extending the approach to other task types." x="60" y="108" width="877" height="75" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="3103:10085" name="Frame 1984078144" x="0" y="9486.3056640625" width="1440" height="1061">
+      <frame id="3098:8392" name="Frame 1984078096" x="324" y="0" width="792" height="537">
+        <frame id="3098:8393" name="Frame 14" x="16" y="16" width="760" height="124">
+          <text id="3098:8394" name="See next project" x="0" y="0" width="143" height="25" />
+          <frame id="3098:8432" name="Frame 1984078111" x="0" y="45" width="520" height="79">
+            <text id="3098:8395" name="Turning an AI black box into a thought partner: drop-off from 70% to 20%" x="0" y="0" width="520" height="60" />
+            <text id="3098:8396" name="AI product design" x="0" y="64" width="87" height="15" />
+          </frame>
+        </frame>
+        <frame id="3098:8397" name="Frame 13" x="16" y="148" width="760" height="373">
+          <frame id="3098:8398" name="Frame 1984078082" x="62" y="17" width="731.060302734375" height="334.1753845214844">
+            <frame id="3098:8399" name="Frame 332" x="0" y="0" width="731.060302734375" height="74.628662109375">
+              <frame id="3098:8400" name="Frame 70" x="367.1352844238281" y="0" width="363.9250183105469" height="74.628662109375">
+                <text id="3098:8401" name="I want to look into youth unemployment in Pakistan. I&#39;ve been reading that the actual official youth unemployment rate is pretty low but that the number might be misleading and that the real issue is underemployment or perhaps greater reliance on informal work (not joblessness)." x="15.533384323120117" y="13.314329147338867" width="332.8582458496094" height="48" />
+              </frame>
+            </frame>
+            <frame id="3098:8402" name="Comp" x="0" y="89.49081420898438" width="731.060302734375" height="86.628662109375">
+              <frame id="3098:8403" name="Response text" x="0" y="0" width="508.2706298828125" height="86.628662109375">
+                <frame id="3098:8404" name="Frame 324" x="0" y="6.657165050506592" width="508.2706298828125" height="48">
+                  <text id="3098:8405" name="Summary" x="-7.275957614183426e-12" y="-0.0003958402667194605" width="152.00526428222656" height="15" hidden="true" />
+                  <text id="3098:8406" name="The tension between a low official youth unemployment rate and concern about underemployment or informal work is the core puzzle here; the framing needs to avoid treating joblessness as the only labour-market problem. I have a few more questions so I can better understand the problem:" x="0" y="0" width="508.2706298828125" height="48" />
+                </frame>
+                <instance id="3098:8407" name="Comp" x="-7.275957614183426e-12" y="298.2179260253906" width="152.0052490234375" height="32.176292419433594" hidden="true" />
+                <frame id="3098:8408" name="Frame 323" x="0" y="67.97149658203125" width="151.5048828125" height="12">
+                  <instance id="3098:8409" name="Comp" x="0" y="0" width="104.3143310546875" height="12" />
+                  <instance id="3098:8410" name="Comp" x="113.1905517578125" y="0" width="38.314327239990234" height="12" />
+                </frame>
+              </frame>
+            </frame>
+            <instance id="3098:8411" name="Q1" x="0" y="190.98162841796875" width="447.1029357910156" height="143.1937713623047" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="3151:10203" name="Footer" x="0" y="417" width="1440" height="644" />
+    </frame>
+    <frame id="3101:10046" name="Frame 1984078117" x="332" y="0" width="1108" height="205.83255004882812" />
+    <instance id="3101:10022" name="Top nav" x="0" y="0" width="1440" height="101" />
+  </frame>
+  <vector id="3186:12274" name="Vector 7" x="792" y="5608" width="350" height="276" />
+</frame>IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.
