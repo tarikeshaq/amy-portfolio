@@ -1,0 +1,38 @@
+import Image from "next/image";
+import orchid from "@/assets/images/footer-orchid.webp";
+import { site } from "@/lib/site";
+
+/**
+ * Figma "Footer" (3151:10190). Desktop: 1440x644 composition, orchid on the left
+ * half, blurred sage band along the bottom 29%, links over the band from 49% across.
+ * Mobile: orchid then links, same band behind.
+ */
+export function Footer() {
+  return (
+    <footer id="contact" className="relative mt-[clamp(5rem,11.7vw,10.5rem)] md:aspect-[1440/644]">
+      {/* Sage band (blur 25px in Figma). */}
+      <div aria-hidden className="absolute inset-x-0 bottom-0 h-[45%] bg-sage blur-[25px] md:top-[71.12%] md:h-auto" />
+      <Image
+        src={orchid}
+        alt=""
+        sizes="(min-width: 768px) 52vw, 80vw"
+        className="relative w-[80%] md:absolute md:top-0 md:left-0 md:w-[52.43%]"
+      />
+      <div className="relative flex flex-col items-start gap-[clamp(1.5rem,3.3vw,3rem)] px-5 pt-4 pb-8 md:absolute md:top-[65.53%] md:right-[1.67%] md:left-[49.17%] md:p-0 md:py-6">
+        <ul className="flex flex-col items-start gap-[clamp(0.75rem,1.7vw,1.5rem)]">
+          <li>
+            <a href={site.linkedin} className="text-label block bg-plum text-lime hover:underline">
+              Find me on Linkedin
+            </a>
+          </li>
+          <li>
+            <a href={`mailto:${site.email}`} className="text-label block bg-plum text-lime hover:underline">
+              Email me
+            </a>
+          </li>
+        </ul>
+        <p className="text-body text-ink">Designed and built by Amy Zeng © 2026</p>
+      </div>
+    </footer>
+  );
+}

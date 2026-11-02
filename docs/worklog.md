@@ -2,6 +2,18 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Next.js scaffold, shared chrome, home page
+
+- Next.js 16 static export + Tailwind v4 ([ADR 0003](adr/0003-nextjs-static-export.md)).
+- Design tokens + fluid type scale in `app/globals.css`; fonts Inter + Source Serif 4.
+- `TopNav` (fixed, active state per route) and `Footer` (orchid + sage band + links).
+- Home page matched to Figma: element positions within ~2px of the 1440 frame.
+- Image pipeline `scripts/optimize-images.mjs`: Figma node exports flatten
+  transparency, so the stick figure and footer orchid use raw fills cropped like Figma's.
+- Playwright e2e on the built `out/`: render, console errors, overflow, images, active nav (desktop + mobile).
+- Stub pages for About and both case studies so links resolve; filled in next.
+- Visual-check helpers: `scripts/shoot.mjs`, `compare.mjs`, `measure.mjs`.
+
 ## 2026-11-01 — Design snapshot
 
 - Downloaded 1:1 screenshots of all five frames, raw layer dumps for the case

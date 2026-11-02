@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* Design tokens from the Figma styles (see design/README.md). */
+@theme inline {
+  --color-page: #eae6f0;
+  --color-plum: #320e3b;
+  --color-lime: #c5d86d;
+  --color-sage: #d8dfaf;
+  --color-ink: #3e3e3d;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
+}
+
+/*
+ * Type scale. Each step hits the Figma size at the 1440px frame width and
+ * scales down fluidly to a readable minimum on phones.
+ * Inter headings use -8% tracking, as in Figma.
+ */
+@utility text-display {
+  /* Figma "Header": Inter Medium 80px */
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: clamp(2.5rem, 1rem + 4.45vw, 5rem);
+  line-height: 1.21;
+  letter-spacing: -0.08em;
+}
+@utility text-title {
+  /* Inter Medium 48px */
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: clamp(1.75rem, 0.75rem + 2.6vw, 3rem);
+  line-height: 1.21;
+  letter-spacing: -0.08em;
+}
+@utility text-label {
+  /* Nav + footer links: Inter Medium 24px */
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: clamp(0.9375rem, 0.5rem + 1.1vw, 1.5rem);
+  line-height: 1.21;
+  letter-spacing: -0.08em;
+}
+@utility text-body {
+  /* Figma "Body": Source Serif Pro Regular 20px */
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.0625rem, 0.875rem + 0.42vw, 1.25rem);
+  line-height: 1.25;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Room for the fixed nav when jumping to #anchors. */
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The design has one colour scheme; don't let UA dark mode recolour form controls etc. */
+:root {
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
