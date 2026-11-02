@@ -2,6 +2,17 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Agent workflow for Amy
+
+- `AGENTS.md` rewritten for an agent working with a designer: plain language, one
+  request = one PR, preview link back, Amy merges ([ADR 0006](adr/0006-designer-driven-changes-via-agent-prs.md)).
+- `docs/agent-playbook.md` (where-things-are map, recipes, checks, troubleshooting) and
+  `docs/for-amy.md` (Amy's guide).
+- `scripts/preview.mjs` finds the Vercel preview for a PR and writes it into the PR description.
+- PR template; `.claude/settings.json` pre-approves routine commands, denies pushes to
+  `main` / force-pushes, and asks before merging.
+- Documented the Vercel Hobby limits on collaborator previews in `deployment.md`.
+
 ## 2026-11-01 — Deployment prep
 
 - Hosting decision: Vercel via GitHub integration ([ADR 0005](adr/0005-host-on-vercel.md)); setup in [deployment.md](deployment.md).

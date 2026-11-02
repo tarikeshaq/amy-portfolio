@@ -1,32 +1,68 @@
-# amy-portfolio — agent briefing
+# amy-portfolio: agent briefing
 
-Static portfolio site for Amy Zeng (AI product designer), built from the Figma file
-[`4Ib6tw9S9Db1VKo6OWtzsF`](https://www.figma.com/design/4Ib6tw9S9Db1VKo6OWtzsF/Untitled),
-section **"[For babe] Final Portfolio"** (node `3197:12285`).
+Portfolio site for **Amy Zeng**, AI product designer. Live at https://www.amyazeng.com.
+A static Next.js site; every merge to `main` deploys automatically (Vercel).
 
-Keep this file short. Detail lives in [`docs/`](docs/README.md).
+## Who you're working with
 
-## Stack
-Next.js 16 static export + Tailwind v4 + Playwright ([ADR 0003](docs/adr/0003-nextjs-static-export.md)).
-**This Next version has breaking changes vs. older training data: read the relevant guide in
-`node_modules/next/dist/docs/` before writing Next code.**
+Usually **Amy**, a designer, not a software engineer. She describes what she wants
+to see ("make the heading smaller", "swap my photo", "add a case study") and reviews
+the result on a **preview link**. You do all the engineering: edit the code, check
+it, open the pull request (PR), and hand her the preview link. She merges.
 
-## Where things are
-- `docs/`: canonical documentation. Start at [`docs/README.md`](docs/README.md); commands in [`docs/development.md`](docs/development.md).
-- `docs/adr/`: Architecture Decision Records. Check here before reversing a pattern.
-- `design/`: snapshot of the Figma source (screenshots, layer dumps, raw assets). Reference only; never imported.
-- `TECH_DEBT.md`: known shortcuts. Add to it in the same commit as the shortcut.
+- **Speak design, not code.** Talk about pages, sections, sizes, colours and spacing.
+  Don't paste code or diffs at her, and never ask her to edit files or run commands
+  herself. The only exception is a one-time sign-in that needs her browser.
+- **Ask only when it changes the result.** For a genuinely ambiguous request, ask one
+  short question with concrete options, e.g. "Smaller like the case-study titles (48px),
+  or a bit bigger (64px)?". Otherwise make the sensible choice and say what you chose.
+- **Do exactly what was asked.** If you notice something else (a typo, a broken link),
+  mention it in your reply and the PR's Notes. Don't fix it unasked.
+- Sometimes it's **Tarik** (engineer, repo owner) instead; he'll make that obvious, and
+  the engineering sections below are for him.
 
-## Workflow
-- **Green check before every commit:** `npm run check` (lint, typecheck, build, e2e).
-- Version control is **jj** (colocated with git). Never run raw `git`. Conventional commits (`type(scope): subject`).
-  Repo-local `snapshot.max-new-file-size` is 10 MiB for design assets.
-- Mini-milestones: each commit builds and passes tests. Push often.
-- New page → add it to `e2e/routes.ts`.
-- UI changes are verified visually against `design/screenshots/` at 1440 and 390 widths
-  (`scripts/shoot.mjs`, `scripts/compare.mjs`, `scripts/measure.mjs`), not just by tests.
-- New decision a future reader might "fix" by mistake → new ADR in `docs/adr/` in the same commit.
-- Update the matching `docs/` page and `docs/worklog.md` in the same change as the code.
+## The change workflow: follow it for every request
+
+Full detail, recipes and troubleshooting: **[docs/agent-playbook.md](docs/agent-playbook.md)**.
+
+1. **Start clean.** Update `main` and create a branch `amy/<short-description>`.
+   One request = one branch = one PR. If she's giving feedback on a PR that's still
+   open, keep working on *that* PR's branch instead.
+2. **Find it.** Use the "Where things are" map in the playbook.
+3. **Change it.** Make the smallest edit that does the job, using the existing colours,
+   type styles and spacing (`app/globals.css`, `components/`).
+4. **Check it.** `npm run check` must pass. Then **look at it**: screenshot every page
+   you touched at desktop and phone width (`scripts/shoot.mjs`) and compare with what she asked.
+5. **Open the PR.** Commit, push the branch, and open a PR using
+   `.github/pull_request_template.md`, written in plain language for Amy.
+6. **Get the preview.** Run `node scripts/preview.mjs`. It waits for Vercel's preview,
+   puts the link at the top of the PR, and prints it.
+7. **Report back** in a few lines: what changed, the **preview link**, the PR link, and
+   "Have a look; tell me what to adjust, or merge the PR on GitHub when you're happy."
+
+**Never:** push to `main`, force-push, merge a PR she hasn't explicitly asked you to
+merge, rewrite or delete other people's branches, or commit secrets. Don't edit
+accepted ADRs in `docs/adr/` (write a new one).
+
+## Version control
+
+- On Amy's machine: plain **git** + **gh**. On Tarik's: **jj**. Use jj only if a `.jj/`
+  directory exists; never mix them.
+- Commit messages: `type(scope): subject`, e.g. `feat(about): swap portrait photo`.
+  PR titles: plain English for Amy, e.g. "Swap the portrait on the About page".
+
+## Engineering reference
+
+- Stack: Next.js 16 static export + Tailwind v4 + Playwright ([ADR 0003](docs/adr/0003-nextjs-static-export.md)).
+  **This Next version has breaking changes compared with older training data: read the
+  relevant guide in `node_modules/next/dist/docs/` before writing Next code.**
+- Green check: `npm run check` (lint, typecheck, static build, Playwright at
+  desktop/tablet/mobile). CI runs the same on every PR.
+- Docs: [`docs/`](docs/README.md): development guide, deployment, ADRs, work log.
+- `design/`: snapshot of the original Figma (reference only; never imported).
+- `TECH_DEBT.md`: known shortcuts. Add to it in the same commit as a new shortcut.
+- New page → add it to `e2e/routes.ts`. A new decision a future reader might "fix" by
+  mistake → new ADR. Update the matching `docs/` page and `docs/worklog.md` with the change.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

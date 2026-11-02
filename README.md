@@ -1,7 +1,9 @@
 # amy-portfolio
 
-Portfolio site for Amy Zeng, AI product designer. A static Next.js site built from
-her Figma design.
+Portfolio site for Amy Zeng, AI product designer, live at https://www.amyazeng.com.
+A static Next.js site built from her Figma design.
+
+**Amy:** see [docs/for-amy.md](docs/for-amy.md) for how to change the site with an AI agent.
 
 ```bash
 npm ci && npx playwright install chromium
