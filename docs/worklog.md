@@ -2,6 +2,13 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — Case-study extraction
+
+- Outlines with verbatim copy, typography and layout for both case studies in
+  `design/extracted/`, plus 2x exports of every mockup in `design/assets/<slug>/`.
+- Possible copy typos found in the design are listed at the end of each outline;
+  copy is kept verbatim until Amy confirms.
+
 ## 2026-11-01 — Next.js scaffold, shared chrome, home page
 
 - Next.js 16 static export + Tailwind v4 ([ADR 0003](adr/0003-nextjs-static-export.md)).
