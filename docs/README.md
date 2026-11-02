@@ -1,0 +1,4 @@
+# Documentation
+
+- [Architecture Decision Records](adr/) — why things are the way they are.
+- [Work log](worklog.md) — what was done, in order.
