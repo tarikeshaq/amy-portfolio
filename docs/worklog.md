@@ -2,6 +2,10 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-01 — LinkedIn link
+
+- Footer "Find me on Linkedin" now points to Amy's profile (`site.linkedin` in `lib/site.ts`).
+
 ## 2026-11-01 — Contact opens email
 
 - Real email address in `lib/site.ts`; the nav CONTACT link and footer "Email me"
