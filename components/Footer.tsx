@@ -35,7 +35,7 @@ export function Footer({ overlap = false }: { overlap?: boolean }) {
           height={orchid.height}
           colorInterpolationFilters="sRGB"
         >
-          <feGaussianBlur stdDeviation="3.75 0" />
+          <feGaussianBlur stdDeviation="1.875 0" />
         </filter>
         <image
           href={orchid.src}
