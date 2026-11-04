@@ -2,6 +2,11 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-04 — Footer orchid motion blur
+
+- The footer orchid now has a sideways camera-motion blur: an SVG `feGaussianBlur`
+  in `components/Footer.tsx`, blurring horizontally only. The hero orchid is unchanged.
+
 ## 2026-11-03 — Hand-drawn favicon
 
 - Browser-tab icon is now Amy's hand-drawn face (`app/icon.png`, replacing `app/icon.svg`).
