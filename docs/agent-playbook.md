@@ -45,7 +45,7 @@ and add commits to it. Don't open a second PR for the same change.
 | Free-form layouts (About collage, case-study heroes) | `components/Collage.tsx` |
 | Images | originals in `design/assets/<page>/`; web versions in `assets/images/` (generated, see below) |
 | Resume PDF | `public/resume.pdf` (doesn't exist yet) |
-| Browser-tab icon | `app/icon.svg` |
+| Browser-tab icon | `app/icon.png` |
 
 Type styles: `text-display` (80px headings), `text-title` (48px card titles),
 `text-subheading` (40px section headings), `text-subheading-2` (24px serif semibold),
