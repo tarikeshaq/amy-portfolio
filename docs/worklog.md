@@ -2,6 +2,11 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-03 — Hand-drawn favicon
+
+- Browser-tab icon is now Amy's hand-drawn face (`app/icon.png`, replacing `app/icon.svg`).
+  Transparent background at Amy's request, so the black lines are hard to see on dark browser tabs.
+
 ## 2026-11-02 — Compute-costs outcome copy
 
 - Removed the literal square brackets around "30%" in the Outcome row of the compute-costs case study.
