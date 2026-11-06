@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Collage, Piece, collageBody } from "@/components/Collage";
 import { Footer } from "@/components/Footer";
-import beach from "@/assets/images/about/beach.webp";
-import catBlack from "@/assets/images/about/cat-black.webp";
-import catOrange from "@/assets/images/about/cat-orange.webp";
 import jewelry1 from "@/assets/images/about/jewelry-1.webp";
 import jewelry2 from "@/assets/images/about/jewelry-2.webp";
 import jewelry3 from "@/assets/images/about/jewelry-3.webp";
@@ -101,24 +98,6 @@ export default function About() {
           </Piece>
           <Piece x={918.5} y={0} w={182} className="w-3/4">
             <Image src={chair} alt="A carved wooden folding chair." sizes="(min-width: 1024px) 13vw, 35vw" />
-          </Piece>
-        </Collage>
-
-        {/* Pets (3161:10364): clipped at the left edge like the design's 1100px-wide frame. */}
-        <Collage height={926} clip className={blockGap}>
-          <Piece x={295} y={174.89} w={565} className="order-3 col-span-2">
-            <Image src={beach} alt="Amy riding a horse along a beach." sizes="(min-width: 1024px) 40vw, 90vw" />
-          </Piece>
-          <Piece x={888} y={505.89} w={212} className="order-4 col-span-2">
-            <p className={collageBody}>
-              I have two amazing cats but also have a rotation of friends’ cats and dogs who I pet-sit while they travel
-            </p>
-          </Piece>
-          <Piece x={247} y={174.89} w={249} className="order-2 w-3/4 justify-self-center">
-            <Image src={catOrange} alt="An orange tabby cat sitting up." sizes="(min-width: 1024px) 18vw, 35vw" />
-          </Piece>
-          <Piece x={-292.8} y={0} w={782.6} className="order-1 -ml-5 lg:ml-0">
-            <Image src={catBlack} alt="A black cat stretched out." sizes="(min-width: 1024px) 55vw, 50vw" />
           </Piece>
         </Collage>
       </main>
