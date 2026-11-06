@@ -5,8 +5,8 @@
 /** @type {Array<[string, string, number, { crop?: { left: number, top: number, width: number, height: number }, mask?: string, rotate?: number }?]>} */
 export const entries = [
   // --- About (3081:3736) ---
-  // 3081:3757 IMG_0687, 739x787 fill box, shown through a 327x583 bottom-aligned window.
-  ["about/IMG_0687.jpg", "about/portrait", 654, { crop: { left: 1, top: 887, width: 1421, height: 2534 } }],
+  // 3081:3757 IMG_0687, 327x583 window. Top set to Amy's reference crop (shows more of the room above her).
+  ["about/IMG_0687.jpg", "about/portrait", 654, { crop: { left: 1, top: 486, width: 1421, height: 2534 } }],
   // 3081:3747/3748/3749: object-cover in 285x379, no crop needed.
   ["about/IMG_4337.jpg", "about/jewelry-1", 570],
   ["about/IMG_4543.jpg", "about/jewelry-2", 570],
