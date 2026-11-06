@@ -2,6 +2,12 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-06 — About portrait crop
+
+- The "As a designer" portrait now frames higher in the original photo, matching Amy's
+  reference crop: same size on the page, with more of the room above her
+  (`scripts/image-manifest.mjs`, `assets/images/about/portrait.webp`).
+
 ## 2026-11-06 — Matrix circle and About page trim
 
 - Compute costs value/cost matrix: the green circle is baked into the image, so it was
