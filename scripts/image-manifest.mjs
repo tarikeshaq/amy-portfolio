@@ -22,19 +22,13 @@ export const entries = [
   }],
   // 3081:3767 IMG_5203, 182x295 box.
   ["about/IMG_5203.png", "about/vintage-chair", 364, { crop: { left: 383, top: 617, width: 441, height: 715 } }],
-  // 3081:3739 3E201385, 565x751 box.
-  ["about/3E201385.jpg", "about/beach", 1130, { crop: { left: 347, top: 1375, width: 2390, height: 3176 } }],
-  // 3081:3751 IMG_9243, 249x471 box.
-  ["about/IMG_9243.png", "about/cat-orange", 498, { crop: { left: 581, top: 1069, width: 1461, height: 2763 } }],
-  // 3081:3752 IMG_5202, 559x564 box rotated -35.5deg (bounding box 782.6x783.8).
-  ["about/IMG_5202.png", "about/cat-black", 1066, { crop: { left: 0, top: 175, width: 759, height: 766 }, rotate: -35.5 }],
 
   // --- Case studies: 2x Figma exports (opaque, page background baked in). See design/extracted/<slug>.md ---
   ["compute-costs/01-hero-bubble-and-gantt-charts@2x.png", "work/compute-costs/01-hero-bubble-and-gantt-charts", 2216],
   ["compute-costs/02-summary-kenya-gantt-chart@2x.png", "work/compute-costs/02-summary-kenya-gantt-chart", 1568],
   ["compute-costs/03-three-task-cards@2x.png", "work/compute-costs/03-three-task-cards", 2038],
   ["compute-costs/04-sample-chat-four-turns@2x.png", "work/compute-costs/04-sample-chat-four-turns", 1192],
-  ["compute-costs/05-cost-value-quadrant@2x.png", "work/compute-costs/05-cost-value-quadrant", 2418],
+  ["compute-costs/05-cost-value-quadrant-recircled@2x.png", "work/compute-costs/05-cost-value-quadrant", 2418],
   ["compute-costs/06-before-text-chat-kenya-timeline@2x.png", "work/compute-costs/06-before-text-chat-kenya-timeline", 814],
   ["compute-costs/07-after-kenya-gantt-chart@2x.png", "work/compute-costs/07-after-kenya-gantt-chart", 1154],
   ["compute-costs/08-before-text-chat-west-africa-conservation@2x.png", "work/compute-costs/08-before-text-chat-west-africa-conservation", 814],
