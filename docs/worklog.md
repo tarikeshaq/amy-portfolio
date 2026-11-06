@@ -2,6 +2,15 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-06 — Matrix circle and About page trim
+
+- Compute costs value/cost matrix: the green circle is baked into the image, so it was
+  repainted to clear all text. New source `05-cost-value-quadrant-recircled@2x.png`; the
+  Figma snapshot `05-cost-value-quadrant@2x.png` is kept untouched. The part of the Gantt
+  sketch the old circle hid is a reconstruction, as the raw photo isn't in the repo.
+- About page: removed the pets section and its three photos (horse, two cats). Their
+  originals stay in `design/assets/about/`.
+
 ## 2026-11-04 — Footer orchid motion blur
 
 - The footer orchid now has a sideways camera-motion blur: an SVG `feGaussianBlur`
