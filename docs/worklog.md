@@ -12,7 +12,7 @@ Newest first. One entry per milestone.
   dark question pills stay rounded. The stage-1 problem-statement image went back to its
   rounded Figma export.
 - Follow-up: also squared the green "These visuals were selected" note, the disclaimer
-  picture's outer frame (its inner panel stays rounded), and the two POV panels in the
+  picture's outer frame on all four corners (its inner panel stays rounded), and the two POV panels in the
   escape-hatch comparison.
 - `scripts/square-corners.py` fills in only the corners of named fill colours (blend
   pixels between fill and page), leaving lines that cross a corner and arrow tips alone.

@@ -30,6 +30,11 @@ JOBS = [
     ("thought-partner/02-citation-format-examples-square@2x.png",
      "thought-partner/02-citation-format-examples-square@2x.png",
      [dict(fill=WHITE, bg=PAGE)]),
+    # thought-partner: the light frame around the disclaimer picture (its left corners were
+    # already squared; the input box inside stays rounded).
+    ("thought-partner/04-knowledge-base-disclaimer-square@2x.png",
+     "thought-partner/04-knowledge-base-disclaimer-square@2x.png",
+     [dict(fill=CARD, bg=PAGE, min_w=500)]),
     # thought-partner: the four lever cards (white top, sage "Why this works" bottom).
     ("thought-partner/05-trust-levers-diagram@2x.png",
      "thought-partner/05-trust-levers-diagram-square@2x.png",
