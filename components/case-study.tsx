@@ -201,8 +201,9 @@ export function FramedVideo({
   className?: string;
 }) {
   return (
-    <figure className={`@container w-full ${className}`} style={{ maxWidth: `${w}px` }}>
-      <div className="bg-[#FBFBFB] p-[1.4cqw]">
+    <figure className={`w-full ${className}`} style={{ maxWidth: `${w}px` }}>
+      {/* % padding is relative to the figure's width, so the band scales with it. */}
+      <div className="bg-[#FBFBFB] p-[1.4%]">
         <video
           src={src}
           aria-label={label}
