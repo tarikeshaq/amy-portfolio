@@ -6,6 +6,7 @@ import {
   Column,
   Columns,
   Figure,
+  FramedVideo,
   H2,
   HeroTitle,
   Highlight,
@@ -18,7 +19,6 @@ import {
 } from "@/components/case-study";
 import heroChat from "@/assets/images/work/thought-partner/01-hero-thought-partner-chat.webp";
 import citationExamples from "@/assets/images/work/thought-partner/02-citation-format-examples.webp";
-import chatbotBefore from "@/assets/images/work/thought-partner/03-chatbot-citations-before.webp";
 import disclaimer from "@/assets/images/work/thought-partner/04-knowledge-base-disclaimer.webp";
 import trustLevers from "@/assets/images/work/thought-partner/05-trust-levers-diagram.webp";
 import stage1 from "@/assets/images/work/thought-partner/06-stage-1-problem-statement.webp";
@@ -28,6 +28,9 @@ import povLessContext from "@/assets/images/work/thought-partner/09-pov-less-con
 import povMoreContext from "@/assets/images/work/thought-partner/10-pov-more-context-panel.webp";
 import nextProject from "@/assets/images/work/thought-partner/11-next-project-compute-costs.webp";
 import { caseStudies } from "@/lib/site";
+
+// Screen recording, served from public/videos/ (original in design/assets/thought-partner/).
+const chatbotBeforeDemo = "/videos/thought-partner/chatbot-citations-before.mp4";
 
 const study = caseStudies.find((c) => c.slug === "thought-partner")!;
 
@@ -114,11 +117,11 @@ export default function ThoughtPartnerCaseStudy() {
                 <P w={626} className="">
                   ... our chatbot already gave them both in the same format so the lack of trust sat somewhere else
                 </P>
-                <Figure
-                  src={chatbotBefore}
+                <FramedVideo
+                  src={chatbotBeforeDemo}
                   w={626}
                   className="mt-3"
-                  alt="The original PolicyCopilot chat: an AI response about Pakistan’s youth unemployment with superscript in-text citations, a “Citations (3)” button, a youth unemployment rate chart, and a disclaimer listing the curated sources under the input."
+                  label="Screen recording of the original PolicyCopilot chat: an AI response about Pakistan’s youth unemployment with superscript in-text citations, a “Citations (3)” button, a youth unemployment rate chart, and a disclaimer listing the curated sources under the input."
                 />
               </div>
             </Columns>
