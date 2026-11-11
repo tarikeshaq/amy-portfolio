@@ -2,6 +2,16 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-11 — HOME link lands at the top
+
+- Clicking HOME from another page glided down to the footer. Next 16 no longer pauses
+  our `scroll-behavior: smooth` during route changes unless `<html>` has
+  `data-scroll-behavior="smooth"`; without it Next's scroll-to-top turned into a smooth
+  scroll that React's Fragment-ref `scrollIntoView` aimed at the last child (the footer).
+  Added the attribute in `app/layout.tsx`. In-page `#work` jumps still scroll smoothly.
+- HOME clicked while already on `/` now scrolls to the top (Next ignores same-URL links).
+- e2e: "nav HOME link lands at the top of the home page".
+
 ## 2026-11-11 — Corner radii from Amy's Figma pass
 
 - Amy marked which shapes are square in Figma (frames `3288:10914` compute costs,

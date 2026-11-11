@@ -42,7 +42,13 @@ export function TopNav() {
                     {label}
                   </a>
                 ) : (
-                  <Link href={href} aria-current={active ? "page" : undefined} className={className}>
+                  <Link
+                    href={href}
+                    aria-current={active ? "page" : undefined}
+                    className={className}
+                    // Next ignores a link to the URL you're already on; HOME should still take you to the top.
+                    onClick={href === "/" && pathname === "/" ? () => window.scrollTo({ top: 0 }) : undefined}
+                  >
                     {label}
                   </Link>
                 )}
