@@ -2,6 +2,17 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-10 — Case-study screen recordings
+
+- Four case-study screenshots are now short looping screen recordings: the compute-costs
+  summary Gantt, the Kenya Gantt "After", the West Africa bubble chart "After", and the
+  thought-partner "chatbot already gave them both" chat. New `FramedVideo` block in
+  `components/case-study.tsx` (autoplay, muted, loop) draws the same #FBFBFB frame the
+  screenshots have baked in; `BeforeAfter` takes a video URL as `src`.
+- Videos are converted to H.264 MP4 with macOS `avconvert -p Preset1920x1080` and served
+  from `public/videos/<page>/`; the `.mov` originals live in `design/assets/<page>/`.
+  The replaced screenshots stay in `assets/images/` (unused).
+
 ## 2026-11-10 — Resume link
 
 - RESUME in the top nav now opens Amy's resume on Google Drive in a new tab
