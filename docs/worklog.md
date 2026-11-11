@@ -2,6 +2,18 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-11 — Corner radii from Amy's Figma pass
+
+- Amy marked which shapes are square in Figma (frames `3288:10914` compute costs,
+  `3288:11326` thought partner). Squared to match: the six sketch cards and their photos
+  on the cost/value quadrant, the two citation boxes, the four trust-lever cards, the
+  escape-hatch arrow labels and caption box, the Stats box, and the "See next project"
+  card. Chat bubbles, chips, tags, buttons, the task cards, the green callout and the
+  dark question pills stay rounded. The disclaimer and stage-1 problem-statement images
+  went back to their rounded Figma exports.
+- `scripts/square-corners.py` fills in only the corners of named fill colours (blend
+  pixels between fill and page), leaving lines that cross a corner and arrow tips alone.
+
 ## 2026-11-10 — Square case-study image corners
 
 - Case-study screenshots had rounded corners baked into the Figma exports. The outer
