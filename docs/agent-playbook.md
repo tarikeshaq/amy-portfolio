@@ -75,6 +75,12 @@ change that element's classes. Everywhere: change the token or `text-*` style in
 4. `npm run images`, then point the page's `import` at the new `assets/images/...webp`.
 5. Write `alt` text that says what the picture shows. Use `alt=""` only for decorative art.
 
+**Replace an image with a screen recording.** Copy the `.mov` original to
+`design/assets/<page>/`, convert it into `public/videos/<page>/<name>.mp4` with
+`avconvert -s <in.mov> -p Preset1920x1080 -o <out.mp4>` (macOS built-in), then use
+`<FramedVideo src="/videos/<page>/<name>.mp4" label="…" w={…} />` (or pass the URL as a
+`BeforeAfter` side's `src`). It loops silently and keeps the screenshots' light frame.
+
 **Contact details / resume.** Email, LinkedIn and resume URL live in `lib/site.ts`.
 The resume is a Google Drive share link; to update it, swap the URL in `lib/site.ts`
 (or replace the file in Drive and keep the same link).

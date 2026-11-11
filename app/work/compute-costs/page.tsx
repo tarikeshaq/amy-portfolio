@@ -7,6 +7,7 @@ import {
   Column,
   Columns,
   Figure,
+  FramedVideo,
   H2,
   HeroTitle,
   Highlight,
@@ -17,16 +18,17 @@ import {
   Summary,
 } from "@/components/case-study";
 import hero from "@/assets/images/work/compute-costs/01-hero-bubble-and-gantt-charts.webp";
-import summaryGantt from "@/assets/images/work/compute-costs/02-summary-kenya-gantt-chart.webp";
 import taskCards from "@/assets/images/work/compute-costs/03-three-task-cards.webp";
 import sampleChat from "@/assets/images/work/compute-costs/04-sample-chat-four-turns.webp";
 import quadrant from "@/assets/images/work/compute-costs/05-cost-value-quadrant.webp";
 import beforeKenya from "@/assets/images/work/compute-costs/06-before-text-chat-kenya-timeline.webp";
-import afterKenya from "@/assets/images/work/compute-costs/07-after-kenya-gantt-chart.webp";
 import beforeWestAfrica from "@/assets/images/work/compute-costs/08-before-text-chat-west-africa-conservation.webp";
-import afterWestAfrica from "@/assets/images/work/compute-costs/09-after-west-africa-bubble-chart.webp";
 import nextProject from "@/assets/images/work/compute-costs/10-next-project-thought-partner-chat.webp";
 import { caseStudies } from "@/lib/site";
+
+// Screen recordings, served from public/videos/ (originals in design/assets/compute-costs/).
+const kenyaGanttDemo = "/videos/compute-costs/kenya-gantt-demo.mp4";
+const westAfricaBubbleDemo = "/videos/compute-costs/west-africa-bubble-timeline-demo.mp4";
 
 const study = caseStudies.find((c) => c.slug === "compute-costs")!;
 
@@ -89,11 +91,11 @@ export default function ComputeCostsCaseStudy() {
                 },
               ]}
             />
-            <Figure
-              src={summaryGantt}
+            <FramedVideo
+              src={kenyaGanttDemo}
               w={784}
-              className="mx-auto mt-[clamp(1.75rem,3.33vw,3rem)] w-fit"
-              alt="PolicyCopilot Gantt chart titled “Youth unemployment in Kenya”, with filters for issuing body and policy status, showing six policies as coloured bars from 2004 to present."
+              className="mx-auto mt-[clamp(1.75rem,3.33vw,3rem)]"
+              label="Screen recording of the PolicyCopilot Gantt chart titled “Youth unemployment in Kenya”, with filters for issuing body and policy status, showing six policies as coloured bars from 2004 to present."
             />
           </Block>
 
@@ -200,9 +202,9 @@ export default function ComputeCostsCaseStudy() {
               after={{
                 caption: "The Gantt chart makes order and overlap visible immediately",
                 captionWidth: 549,
-                src: afterKenya,
+                src: kenyaGanttDemo,
                 w: 577,
-                alt: "After: a single Gantt chart answer, “Youth unemployment in Kenya”, showing six policies as coloured bars from 2004 to present, so order and overlap are visible at a glance.",
+                alt: "After (screen recording): a single Gantt chart answer, “Youth unemployment in Kenya”, showing six policies as coloured bars from 2004 to present, so order and overlap are visible at a glance.",
               }}
             />
           </Block>
@@ -223,9 +225,9 @@ export default function ComputeCostsCaseStudy() {
                 caption:
                   "Sizing bubbles by funding received showed which projects attract funders without users comparing figures",
                 captionWidth: 549,
-                src: afterWestAfrica,
+                src: westAfricaBubbleDemo,
                 w: 577,
-                alt: "After: a bubble chart titled “Conservation in West Africa” plotting projects by approval date and relevancy, with bubbles sized by funding and coloured by issuing body.",
+                alt: "After (screen recording): a bubble chart titled “Conservation in West Africa” plotting projects by approval date and relevancy, with bubbles sized by funding and coloured by issuing body.",
               }}
             />
           </Block>

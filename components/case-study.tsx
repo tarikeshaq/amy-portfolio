@@ -185,6 +185,40 @@ export function Figure({
 }
 
 /**
+ * A short screen recording that loops silently like a GIF, inside the same #FBFBFB
+ * frame the screenshots have baked in (a band ~1.4% of the artifact's width).
+ * `w` is the Figma width of the artifact, frame included; `src` is a URL under public/.
+ */
+export function FramedVideo({
+  src,
+  label,
+  w,
+  className = "",
+}: {
+  src: string;
+  label: string;
+  w: number;
+  className?: string;
+}) {
+  return (
+    <figure className={`@container w-full ${className}`} style={{ maxWidth: `${w}px` }}>
+      <div className="bg-[#FBFBFB] p-[1.4cqw]">
+        <video
+          src={src}
+          aria-label={label}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="block w-full"
+        />
+      </div>
+    </figure>
+  );
+}
+
+/**
  * Side-by-side columns from `lg` up, stacked below. `cols` are Figma column widths,
  * `gap` the Figma gap; the row keeps those proportions and caps at their total width.
  */
@@ -258,7 +292,14 @@ export function Summary({
   );
 }
 
-type Side = { caption: ReactNode; captionWidth?: number; src: StaticImageData; alt: string; w: number };
+type Side = {
+  caption: ReactNode;
+  captionWidth?: number;
+  /** A screenshot, or the URL of a screen recording in public/videos/ (shown with <FramedVideo>). */
+  src: StaticImageData | string;
+  alt: string;
+  w: number;
+};
 
 /** Prompt + Before/After columns (eyebrow, caption, image). */
 export function BeforeAfter({
@@ -289,7 +330,11 @@ export function BeforeAfter({
             <P w={side.captionWidth} className="mt-1">
               {side.caption}
             </P>
-            <Figure src={side.src} alt={side.alt} w={side.w} className="mt-3" />
+            {typeof side.src === "string" ? (
+              <FramedVideo src={side.src} label={side.alt} w={side.w} className="mt-3" />
+            ) : (
+              <Figure src={side.src} alt={side.alt} w={side.w} className="mt-3" />
+            )}
           </div>
         ))}
       </Columns>
