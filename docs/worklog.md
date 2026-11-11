@@ -9,8 +9,11 @@ Newest first. One entry per milestone.
   on the cost/value quadrant, the two citation boxes, the four trust-lever cards, the
   escape-hatch arrow labels and caption box, the Stats box, and the "See next project"
   card. Chat bubbles, chips, tags, buttons, the task cards, the green callout and the
-  dark question pills stay rounded. The disclaimer and stage-1 problem-statement images
-  went back to their rounded Figma exports.
+  dark question pills stay rounded. The stage-1 problem-statement image went back to its
+  rounded Figma export.
+- Follow-up: also squared the green "These visuals were selected" note, the disclaimer
+  picture's outer frame (its inner panel stays rounded), and the two POV panels in the
+  escape-hatch comparison.
 - `scripts/square-corners.py` fills in only the corners of named fill colours (blend
   pixels between fill and page), leaving lines that cross a corner and arrow tips alone.
 

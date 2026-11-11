@@ -24,7 +24,8 @@ JOBS = [
     # compute-costs: the six sketch cards on the cost/value quadrant, and their photos.
     ("compute-costs/05-cost-value-quadrant-recircled@2x.png",
      "compute-costs/05-cost-value-quadrant-recircled-square@2x.png",
-     [dict(fill=CARD, bg=PAGE, photos=True)]),
+     [dict(fill=CARD, bg=PAGE, photos=True),
+      dict(fill=SAGE, bg=PAGE)]),   # "These visuals were selected as the ones to build" note
     # thought-partner: the in-text citation and reference list boxes.
     ("thought-partner/02-citation-format-examples-square@2x.png",
      "thought-partner/02-citation-format-examples-square@2x.png",
@@ -33,10 +34,13 @@ JOBS = [
     ("thought-partner/05-trust-levers-diagram@2x.png",
      "thought-partner/05-trust-levers-diagram-square@2x.png",
      [dict(fill=CARD, bg=PAGE), dict(fill=SAGE, bg=PAGE)]),
-    # thought-partner: the sage arrow labels and the caption box between the two panels.
+    # thought-partner: the sage arrow labels, the caption box between the two panels, and
+    # the two POV panels themselves.
     ("thought-partner/08-escape-hatch-comparison@2x.png",
      "thought-partner/08-escape-hatch-comparison-square@2x.png",
-     [dict(fill=SAGE, bg=PAGE)]),
+     [dict(fill=SAGE, bg=PAGE),
+      dict(fill=CARD, bg=PAGE, box=(0, 0, 1010, 1690), min_w=500),
+      dict(fill=CARD, bg=PAGE, box=(1630, 0, 2640, 2476), min_w=500)]),
 ]
 
 R_MAX = 28   # largest corner radius to fill, in 2x pixels
@@ -73,7 +77,7 @@ def arc_radius(C, y0, y1, x0, x1, corner):
     return r if r < 6 or t <= 0.4 * r + 1 else 0
 
 
-def square_shapes(a, fill, bg, photos=False, box=None):
+def square_shapes(a, fill, bg, photos=False, box=None, min_w=40):
     H, W, _ = a.shape
     M = np.abs(a - np.array(fill)).max(-1) <= 3
     if box:
@@ -86,12 +90,16 @@ def square_shapes(a, fill, bg, photos=False, box=None):
     done = []
     for i, sl in enumerate(ndimage.find_objects(lab), 1):
         y0, y1, x0, x1 = sl[0].start, sl[0].stop - 1, sl[1].start, sl[1].stop - 1
-        if x1 - x0 < 40 or y1 - y0 < 24:
+        if x1 - x0 < min_w or y1 - y0 < 24:
             continue
         C = lab == i
         for corner in ("tl", "tr", "bl", "br"):
             r = arc_radius(C, y0, y1, x0, x1, corner)
             if not r:
+                continue
+            # only corners that sit on the page background (not inner cards' outlines)
+            py, px = (y0 if corner[0] == "t" else y1), (x0 if corner[1] == "l" else x1)
+            if np.abs(a[py, px] - np.array(bg)).max() > 6:
                 continue
             ys = slice(y0, y0 + r + 1) if corner[0] == "t" else slice(y1 - r, y1 + 1)
             xs = slice(x0, x0 + r + 1) if corner[1] == "l" else slice(x1 - r, x1 + 1)

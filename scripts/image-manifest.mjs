@@ -37,7 +37,7 @@ export const entries = [
   ["thought-partner/01-hero-thought-partner-chat-square@2x.png", "work/thought-partner/01-hero-thought-partner-chat", 1634],
   ["thought-partner/02-citation-format-examples-square@2x.png", "work/thought-partner/02-citation-format-examples", 1096],
   ["thought-partner/03-chatbot-citations-before-square@2x.png", "work/thought-partner/03-chatbot-citations-before", 1252],
-  ["thought-partner/04-knowledge-base-disclaimer@2x.png", "work/thought-partner/04-knowledge-base-disclaimer", 1342],
+  ["thought-partner/04-knowledge-base-disclaimer-square@2x.png", "work/thought-partner/04-knowledge-base-disclaimer", 1342],
   ["thought-partner/05-trust-levers-diagram-square@2x.png", "work/thought-partner/05-trust-levers-diagram", 2880],
   ["thought-partner/06-stage-1-problem-statement@2x.png", "work/thought-partner/06-stage-1-problem-statement", 976],
   ["thought-partner/07-stage-2-root-cause-questions@2x.png", "work/thought-partner/07-stage-2-root-cause-questions", 1110],
