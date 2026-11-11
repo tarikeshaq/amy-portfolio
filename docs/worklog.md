@@ -2,6 +2,11 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-10 — Resume link
+
+- RESUME in the top nav now opens Amy's resume on Google Drive in a new tab
+  (`lib/site.ts`), replacing the placeholder `/resume.pdf`. Tech-debt entry removed.
+
 ## 2026-11-06 — About portrait crop
 
 - The "As a designer" portrait now frames higher in the original photo, matching Amy's
