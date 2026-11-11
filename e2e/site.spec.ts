@@ -80,6 +80,20 @@ test("nav WORK link returns to the selected-work section", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "Selected work" })).toBeInViewport();
 });
 
+test("nav HOME link lands at the top of the home page", async ({ page }) => {
+  const home = page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "HOME" });
+  const atTop = () => expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+  // From another page (regression: smooth scrolling used to glide down to the footer).
+  await page.goto("/about/");
+  await home.click();
+  await expect(page).toHaveURL(/\/$/);
+  await atTop();
+  // From further down the home page itself.
+  await page.evaluate(() => window.scrollTo({ top: document.body.scrollHeight, behavior: "instant" }));
+  await home.click();
+  await atTop();
+});
+
 test("unknown paths render the styled 404", async ({ page }) => {
   const res = await page.goto("/does-not-exist/");
   expect(res?.status()).toBe(404);
