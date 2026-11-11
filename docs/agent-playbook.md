@@ -44,7 +44,7 @@ and add commits to it. Don't open a second PR for the same change.
 | Case-study building blocks (section headings, dark highlight boxes, stats card, before/after, "See next project" card) | `components/case-study.tsx` |
 | Free-form layouts (About collage, case-study heroes) | `components/Collage.tsx` |
 | Images | originals in `design/assets/<page>/`; web versions in `assets/images/` (generated, see below) |
-| Resume PDF | `public/resume.pdf` (doesn't exist yet) |
+| Resume link (Google Drive) | `resume` in `lib/site.ts` |
 | Browser-tab icon | `app/icon.png` |
 
 Type styles: `text-display` (80px headings), `text-title` (48px card titles),
@@ -76,7 +76,8 @@ change that element's classes. Everywhere: change the token or `text-*` style in
 5. Write `alt` text that says what the picture shows. Use `alt=""` only for decorative art.
 
 **Contact details / resume.** Email, LinkedIn and resume URL live in `lib/site.ts`.
-Put the resume at `public/resume.pdf` (link stays `/resume.pdf`).
+The resume is a Google Drive share link; to update it, swap the URL in `lib/site.ts`
+(or replace the file in Drive and keep the same link).
 
 **Add a case study.**
 1. Copy the closest existing folder in `app/work/` to `app/work/<new-slug>/`.

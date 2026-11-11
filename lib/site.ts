@@ -6,7 +6,7 @@ export const site = {
   // TODO(TECH_DEBT): real values from Amy.
   email: "amyzeng1006@gmail.com",
   linkedin: "https://www.linkedin.com/in/amyazeng/",
-  resume: "/resume.pdf",
+  resume: "https://drive.google.com/file/d/19-7z5IURnfoHONwrq3kGw922gkVxGmo3/view?usp=sharing",
 } as const;
 
 export const caseStudies = [
