@@ -2,6 +2,30 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-11 — Corner radii from Amy's Figma pass
+
+- Amy marked which shapes are square in Figma (frames `3288:10914` compute costs,
+  `3288:11326` thought partner). Squared to match: the six sketch cards and their photos
+  on the cost/value quadrant, the two citation boxes, the four trust-lever cards, the
+  escape-hatch arrow labels and caption box, the Stats box, and the "See next project"
+  card. Chat bubbles, chips, tags, buttons, the task cards, the green callout and the
+  dark question pills stay rounded. The stage-1 problem-statement image went back to its
+  rounded Figma export.
+- Follow-up: also squared the green "These visuals were selected" note, the disclaimer
+  picture's outer frame on all four corners (its inner panel stays rounded), and the two POV panels in the
+  escape-hatch comparison.
+- `scripts/square-corners.py` fills in only the corners of named fill colours (blend
+  pixels between fill and page), leaving lines that cross a corner and arrow tips alone.
+
+## 2026-11-10 — Square case-study image corners
+
+- Case-study screenshots had rounded corners baked into the Figma exports. The outer
+  frame corners were squared off by extending each straight edge into the corner; new
+  sources are `*-square@2x.png` (the Figma snapshots are kept untouched) and the WebPs
+  were regenerated at the pipeline's settings (quality 82). Diagrams whose shapes merely
+  touch the image edge (task cards, stage-2 questions, escape hatch, and the stage-1
+  "Generate" button) were left alone. The "See next project" image lost its 4px radius.
+
 ## 2026-11-10 — Case-study screen recordings
 
 - Four case-study screenshots are now short looping screen recordings: the compute-costs

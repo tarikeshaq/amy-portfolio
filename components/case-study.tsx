@@ -354,7 +354,7 @@ export function Stats({
   items: { value: string; label: ReactNode; muted?: boolean; labelWidth?: number }[];
 }) {
   return (
-    <div className="w-fit max-w-full rounded-lg bg-panel px-6 py-6 text-black sm:px-9 sm:py-7">
+    <div className="w-fit max-w-full bg-panel px-6 py-6 text-black sm:px-9 sm:py-7">
       <p className="text-subheading-2">{title}</p>
       <ul className="mt-5 flex flex-wrap gap-x-[clamp(2rem,5.5vw,5rem)] gap-y-5">
         {items.map(({ value, label, muted, labelWidth }) => (
@@ -390,12 +390,12 @@ export function NextProject({
   return (
     <Link
       href={href}
-      className="group mx-auto block max-w-[792px] rounded-lg border-4 border-plum bg-plum p-3 text-page transition-transform hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-plum"
+      className="group mx-auto block max-w-[792px] border-4 border-plum bg-plum p-3 text-page transition-transform hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-plum"
     >
       <p className="text-body">See next project</p>
       <p className="text-subheading-2 mt-5 group-hover:underline">{title}</p>
       <p className="text-diagram mt-1">{tag}</p>
-      <Image src={src} alt={alt} sizes="(min-width: 792px) 760px, 90vw" className="mt-2 w-full rounded-[4px]" />
+      <Image src={src} alt={alt} sizes="(min-width: 792px) 760px, 90vw" className="mt-2 w-full" />
     </Link>
   );
 }
