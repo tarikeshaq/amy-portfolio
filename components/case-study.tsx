@@ -212,7 +212,9 @@ export function FramedVideo({
           loop
           playsInline
           preload="auto"
-          className="block w-full"
+          // The recordings carry a 1px grey window outline at their edges (in some, only
+          // partway through); trim ~2 source px so only the frame band shows there.
+          className="block w-full [clip-path:inset(0.3%)]"
         />
       </div>
     </figure>
