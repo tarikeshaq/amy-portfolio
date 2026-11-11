@@ -354,12 +354,12 @@ export function Stats({
   items: { value: string; label: ReactNode; muted?: boolean; labelWidth?: number }[];
 }) {
   return (
-    <div className="w-fit max-w-full rounded-lg bg-panel px-6 py-6 text-black sm:px-9 sm:py-7">
+    <div className="w-fit max-w-full bg-panel px-6 py-6 text-black sm:px-9 sm:py-7">
       <p className="text-subheading-2">{title}</p>
       <ul className="mt-5 flex flex-wrap gap-x-[clamp(2rem,5.5vw,5rem)] gap-y-5">
         {items.map(({ value, label, muted, labelWidth }) => (
           <li key={value} className="flex flex-col items-start gap-1">
-            <span className={`text-subheading-2 rounded-lg px-2 py-1 ${muted ? "bg-page" : "bg-sage"}`}>
+            <span className={`text-subheading-2 px-2 py-1 ${muted ? "bg-page" : "bg-sage"}`}>
               {/* Source Serif 4's arrow is much longer than the design's; set it in Inter. */}
               {value.split("→").flatMap((part, i) => (i === 0 ? [part] : [<span key={i} className="font-sans">→</span>, part]))}
             </span>
@@ -390,7 +390,7 @@ export function NextProject({
   return (
     <Link
       href={href}
-      className="group mx-auto block max-w-[792px] rounded-lg border-4 border-plum bg-plum p-3 text-page transition-transform hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-plum"
+      className="group mx-auto block max-w-[792px] border-4 border-plum bg-plum p-3 text-page transition-transform hover:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-plum"
     >
       <p className="text-body">See next project</p>
       <p className="text-subheading-2 mt-5 group-hover:underline">{title}</p>
