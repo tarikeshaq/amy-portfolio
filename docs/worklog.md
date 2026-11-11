@@ -2,6 +2,15 @@
 
 Newest first. One entry per milestone.
 
+## 2026-11-10 — Square case-study image corners
+
+- Case-study screenshots had rounded corners baked into the Figma exports. The outer
+  frame corners were squared off by extending each straight edge into the corner; new
+  sources are `*-square@2x.png` (the Figma snapshots are kept untouched) and the WebPs
+  were regenerated at the pipeline's settings (quality 82). Diagrams whose shapes merely
+  touch the image edge (task cards, stage-2 questions, escape hatch, and the stage-1
+  "Generate" button) were left alone. The "See next project" image lost its 4px radius.
+
 ## 2026-11-10 — Resume link
 
 - RESUME in the top nav now opens Amy's resume on Google Drive in a new tab

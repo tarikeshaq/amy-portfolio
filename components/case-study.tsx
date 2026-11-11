@@ -347,7 +347,7 @@ export function NextProject({
       <p className="text-body">See next project</p>
       <p className="text-subheading-2 mt-5 group-hover:underline">{title}</p>
       <p className="text-diagram mt-1">{tag}</p>
-      <Image src={src} alt={alt} sizes="(min-width: 792px) 760px, 90vw" className="mt-2 w-full rounded-[4px]" />
+      <Image src={src} alt={alt} sizes="(min-width: 792px) 760px, 90vw" className="mt-2 w-full" />
     </Link>
   );
 }
