@@ -2,20 +2,14 @@
 
 Newest first. One entry per milestone.
 
-## 2026-11-11 — Square corners everywhere on the case studies
+## 2026-11-10 — Square case-study image corners
 
-- Every rounded shape on both case studies is now square: the outer frame of each
-  screenshot, and the cards, chat bubbles, buttons, tags, labels and outlined boxes drawn
-  inside them (Figma exports, so the rounding was baked into the pixels). New sources are
-  `*-square@2x.png` next to the untouched Figma snapshots; WebPs regenerated (quality 82).
-- The squaring was done by `scripts/square-corners.py` (Python + Pillow/NumPy/SciPy, not
-  part of the build): it finds flat-coloured rounded rectangles and extends their straight
-  edges into the corners; thin outlines get their arc erased and edges joined. Circles,
-  arrow-shaped labels, text and photos are left alone. Run
-  `PHOTOS=1` for images containing photos (the cost/value quadrant).
-- In code: the "Stats" box, its number tags and the "See next project" card lost
-  `rounded-lg`; the next-project image lost its 4px radius.
-- Not changed: the four screen recordings (rounded shapes inside the videos remain).
+- Case-study screenshots had rounded corners baked into the Figma exports. The outer
+  frame corners were squared off by extending each straight edge into the corner; new
+  sources are `*-square@2x.png` (the Figma snapshots are kept untouched) and the WebPs
+  were regenerated at the pipeline's settings (quality 82). Diagrams whose shapes merely
+  touch the image edge (task cards, stage-2 questions, escape hatch, and the stage-1
+  "Generate" button) were left alone. The "See next project" image lost its 4px radius.
 
 ## 2026-11-10 — Case-study screen recordings
 
